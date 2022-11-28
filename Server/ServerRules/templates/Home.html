@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Academia de Pregadores
+</title>
+  <script type="text/javascript" src="js/base64.js"></script>
+  <script type="text/javascript" src="js/json2.js"></script>
+  <script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+  <script type="text/javascript" src="js/connection.js"></script>
+  <script type="text/javascript" src="<#serverfunctionsjs>"></script>
+
+</head>
+
+<body onload="onLoad()">
+
+  <!--
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slicknav.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  -->
+
+   <script type="text/javascript">
+
+
+function Sair(User)
+
+{
+
+  serverMethods().Sair(User);
+
+  location.reload();
+
+}
+
+
+function FavoritarCursoAluno(User, IdCurso)
+
+{
+
+  serverMethods().AdicionarCursoFavorito(User, IdCurso);
+
+}
+
+
+function GetIdDevice()
+{
+  var ID_DEVICE = 'IMEI012292005855429';
+  return ID_DEVICE;
+}
+
+function UsuarioLogado()
+{
+  //setCredentials('', '', GetIdDevice());
+  var s = serverMethods().UsuarioLogado(GetIdDevice());
+  return s;
+}
+
+function getAuthentication(User, Password)
+{
+   var s = serverMethods().AutenticarUsuario(User, Password, GetIdDevice());
+  return s;
+}
+
+function onLoad()
+{
+  setConnection('<#host>', '<#port>', '<#urlpath>');
+  UsuarioLogado();
+}
+
+function serverMethods()
+{
+  return new <#classname>(connectionInfo);
+}
+
+function onReverseStringClick()
+{
+  if (loginRequired && (AdminInst == null))
+  {
+    showLogin(true);
+    return;
+  }
+  var valueField = document.getElementById('valueField');
+  var s = serverMethods().ReverseString(valueField.value);
+  valueField.value = s.result;
+}
+
+function onLogin()
+    {
+
+      if (AdminInst == null)
+        {
+            //var Logado = setCredentials(document.getElementById('exampleInputEmail1').value, document.getElementById('exampleInputPassword1').value, GetIdDevice());
+
+            var Logado = getAuthentication(document.getElementById('exampleInputEmail1').value, document.getElementById('exampleInputPassword1').value);
+
+            if (Logado)
+            {
+              var objJson = serverMethods().UrlTelaUserPlayer();
+              window.location.href = objJson.result;
+            }
+            else
+            {
+              loginCorrect(false);
+            }
+        }
+    }
+
+     function loginCorrect(isCorrect)
+    {
+      var errorDiv = document.getElementById('loginError');
+
+      if ( errorDiv != null )
+      {
+
+        if (isCorrect)
+        {
+
+           errorDiv.innerHTML= "";
+
+        } else
+        {
+
+          errorDiv.innerHTML = isCorrect ? "" : "Entrada incorreta!";
+        }
+
+      }
+    }
+</script>
+
+  <!-- MENU -->
+  <nav id="menu" class="menu">
+    <ul>
+      <li>
+        <a href="#">
+          <img src="img/menu/home.png" class="menu-icon">
+          <img src="img/menu/home-active.png" class="menu-icon active">Página inicial
+</a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/courses.png" class="menu-icon">
+          <img src="img/menu/courses-active.png" class="menu-icon active">Meus cursos
+</a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/notes.png" class="menu-icon">
+          <img src="img/menu/notes-active.png" class="menu-icon active">Minhas anotações
+</a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/history.png" class="menu-icon">
+          <img src="img/menu/history-active.png" class="menu-icon active">Meu histórico
+</a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/archivements.png" class="menu-icon">
+          <img src="img/menu/archivements-active.png" class="menu-icon active">Minhas conquistas
+</a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/terms.png" class="menu-icon">
+          <img src="img/menu/terms-active.png" class="menu-icon active">Termos
+</a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/about.png" class="menu-icon" />
+          <img src="img/menu/about-active.png" class="menu-icon active" />Sobre
+</a>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="navbar-area-1">
+      <button class="toggle-menu">
+        <img src="img/menu.png" alt="Menu">
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="Logo Academia de Pregadores">
+      </a>
+      <div id="search-bar" class="form-inline navbar-search-wrapper">
+        <input class="form-control navbar-search-input" type="search" placeholder="Pesquise um conteúdo"
+        aria-label="Pesquisar" value="">
+        <button id="btn-search" class="btn-search-icon show" onclick="toggleSearchBar()">
+          <img src="img/search.png" alt="Icone de busca">
+        </button>
+        <button id="btn-close-search" class="btn-search-icon" onclick="toggleSearchBar()">
+          <img src="img/close-search.png" alt="Icone de busca">
+        </button>
+      </div>
+    </div>
+    <div class="user-buttons">
+      <#botaoassineagoratopo>
+      <#botaonotificacoesusuario>
+      <button class="btn-profile" id="btn-open-menu-avatar">
+        <img src="img/user-icon.png" id="btn-avatar-image" alt="Meu perfil">
+      </button>
+    </div>
+  <div id="menu-avatar">
+    <div class="menu-avatar-content">
+      <button class="btn-menu-avatar">
+        <img src="img/avatar/user.png" class="menu-avatar-icon" alt="">
+        <img src="img/avatar/user-active.png" class="menu-avatar-icon active" alt="">
+        <span class="text">Meu perfil
+</span>
+      </button>
+      <button class="btn-menu-avatar">
+        <img src="img/avatar/archivements.png" class="menu-avatar-icon" alt="">
+        <img src="img/avatar/archivements-active.png" class="menu-avatar-icon active" alt="">
+        <span class="text">Minhas conquistas
+</span>
+      </button>
+      <button class="btn-menu-avatar">
+        <img src="img/avatar/money.png" class="menu-avatar-icon" alt="">
+        <img src="img/avatar/money-active.png" class="menu-avatar-icon active" alt="">
+        <span class="text">Meus créditos
+</span>
+      </button>
+      <button onclick="Sair()" class="btn-menu-avatar">
+        <img src="img/avatar/logout.png" class="menu-avatar-icon" alt="">
+        <img src="img/avatar/logout-active.png" class="menu-avatar-icon active" alt="">
+        <span class="text">Sair
+</span>
+      </button>
+    </div>
+  </div>
+</nav>
+  <!-- FIM MENU -->
+
+  <div id="panel">
+    <main class="hero"></main>
+
+    <#cursosdisponiveisemfaixas>
+
+    <footer class="footer">
+        <div class="container-fluid">
+          <div class="footer-menu">
+            <a href="&#28;#">Termos e condições de uso
+</a>
+            <a href="&#28;#">Política de privacidade
+</a>
+          </div>
+          <div class="copy">2019 Todos os direitos reservados
+</div>
+          <div class="social">
+            <a href="#"><img src="img/facebok.png" alt="Facebook"></a>
+            <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="img/youtube.png" alt="Youtube"></a>
+            <a href="#"><img src="img/social.png" alt="Social"></a>
+          </div>
+        </div>
+      </footer>
+  </div>
+
+  <!-- Modal Login -->
+  <div class="modal fade login-modal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModal">Entrar
+</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×
+</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form onsubmit="onLogin(); return false;">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address
+</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password
+</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="divide">
+
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Lembrar de mim
+</label>
+              </div>
+              <button type="submit" class="btn-login btn btn-primary">Entrar
+</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <p class="lead">Ainda não é assinante?
+</p>
+          <button type="submit" class="btn-login btn btn-primary">Assine agora!
+</button>
+          <a href="#">Esqueci a senha
+</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slideout.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/home.js"></script>
+<!--
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/slideout.min.js"></script>
+  <script src="js/app.js"></script>
+-->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slicknav.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/home.css">
+
+</body>
+
+</html>

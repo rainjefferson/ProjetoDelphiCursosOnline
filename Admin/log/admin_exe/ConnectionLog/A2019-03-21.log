@@ -1,0 +1,16 @@
+Admin.exe: 00002C90: 19:13:58 [127.0.0.1]:Failed Sequence Recovery: SeqId: 7, Event: keypress
+Admin.exe: 00003364: 19:14:00 [127.0.0.1]:Failed Sequence Recovery: SeqId: 8, Event: click
+Admin.exe: 00002424: 19:14:00 [127.0.0.1]:Failed Sequence Recovery: SeqId: 8, Event: click
+Admin.exe: 000006D8: 19:14:00 [127.0.0.1]:Failed Sequence Recovery: SeqId: 7, Event: keypress
+Admin.exe: 00002424: 19:14:00 [127.0.0.1]:Processing: Id: 8, Evt: click
+Admin.exe: 00002424: 19:14:04 [127.0.0.1]:Processed: Id: 8, Evt: click, [BubpeP5hva1038D9DD4]
+Admin.exe: 00002C90: 19:14:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 7
+Admin.exe: 00002C90: 19:14:04 [127.0.0.1]:Processed: Id: 7, Evt: keypress, [BubpeP5hva1038D9DD4]
+Admin.exe: 00003364: 19:14:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 8
+Admin.exe: 00003364: 19:14:04 [127.0.0.1]:Processed: Id: 8, Evt: click, [BubpeP5hva1038D9DD4]
+Admin.exe: 000006D8: 19:14:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 7
+Admin.exe: 000006D8: 19:14:04 [127.0.0.1]:Processed: Id: 7, Evt: keypress, [BubpeP5hva1038D9DD4]
+Admin.exe: 000029B4: 19:14:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 8
+Admin.exe: 00001384: 19:14:09 [127.0.0.1]:Failed Sequence Recovery: SeqId: 7, Event: keypress
+Admin.exe: 00001384: 19:14:09 [127.0.0.1]:Sequence sent from cache:  SeqId: 7
+Admin.exe: 00001384: 19:14:09 [127.0.0.1]:Processed: Id: 7, Evt: keypress, [BubpeP5hva1038D9DD4]

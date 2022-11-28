@@ -1,0 +1,96 @@
+Admin.exe: 00002D20: 20:22:15 []:>--------------------------------------------------------------<
+Admin.exe: 00002D20: 20:22:15 [TUniServerModule]:Server First Init.
+Admin.exe: 00002D20: 20:22:15 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002D20: 20:22:15 [TUniServerModule]:Global Cache Folder Erased. <11> Files deleted.
+Admin.exe: 00002D20: 20:23:06 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00002D20: 20:23:06 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00002D30: 20:23:55 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002CB4: 20:28:26 []:>--------------------------------------------------------------<
+Admin.exe: 00002CB4: 20:28:26 [TUniServerModule]:Server First Init.
+Admin.exe: 00002CB4: 20:28:26 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002CB4: 20:28:28 [TUniServerModule]:Global Cache Folder Erased. <64> Files deleted.
+Admin.exe: 00002CB4: 20:28:52 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00002CB4: 20:28:52 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 000039B4: 20:37:51 []:>--------------------------------------------------------------<
+Admin.exe: 000039B4: 20:37:51 [TUniServerModule]:Server First Init.
+Admin.exe: 000039B4: 20:37:51 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000039B4: 20:37:54 [TUniServerModule]:Global Cache Folder Erased. <20> Files deleted.
+Admin.exe: 000039B4: 20:37:54 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 000039B4: 20:37:54 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00001120: 20:38:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079DD03
+Admin.exe: 00002B30: 20:39:23 [127.0.0.1]:EDatabaseError : Field 'USU_ID' must have a value : Addr: $0066ED63
+Admin.exe: 00002FFC: 21:03:26 []:>--------------------------------------------------------------<
+Admin.exe: 00002FFC: 21:03:26 [TUniServerModule]:Server First Init.
+Admin.exe: 00002FFC: 21:03:26 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002FFC: 21:03:28 [TUniServerModule]:Global Cache Folder Erased. <62> Files deleted.
+Admin.exe: 00002FFC: 21:03:28 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00002FFC: 21:03:28 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00003884: 21:08:21 []:>--------------------------------------------------------------<
+Admin.exe: 00003884: 21:08:21 [TUniServerModule]:Server First Init.
+Admin.exe: 00003884: 21:08:21 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003884: 21:08:23 [TUniServerModule]:Global Cache Folder Erased. <61> Files deleted.
+Admin.exe: 00003884: 21:08:23 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00003884: 21:08:23 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 000022B8: 21:08:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079DD03
+Admin.exe: 00003C30: 22:36:24 []:>--------------------------------------------------------------<
+Admin.exe: 00003C30: 22:36:24 [TUniServerModule]:Server First Init.
+Admin.exe: 00003C30: 22:36:24 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003C30: 22:36:25 [TUniServerModule]:Global Cache Folder Erased. <61> Files deleted.
+Admin.exe: 00003C30: 22:36:25 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00003C30: 22:36:25 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00003DA8: 23:00:01 []:>--------------------------------------------------------------<
+Admin.exe: 00003DA8: 23:00:01 [TUniServerModule]:Server First Init.
+Admin.exe: 00003DA8: 23:00:01 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003DA8: 23:00:01 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00003DA8: 23:00:01 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00003A2C: 23:02:14 [127.0.0.1]:EDatabaseError : Field 'CUR_ID' must have a value : Addr: $0066ED63
+Admin.exe: 000034A0: 23:03:50 []:>--------------------------------------------------------------<
+Admin.exe: 000034A0: 23:03:50 [TUniServerModule]:Server First Init.
+Admin.exe: 000034A0: 23:03:50 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000034A0: 23:03:53 [TUniServerModule]:Global Cache Folder Erased. <62> Files deleted.
+Admin.exe: 000034A0: 23:03:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 000034A0: 23:03:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00003E84: 23:06:13 []:>--------------------------------------------------------------<
+Admin.exe: 00003E84: 23:06:13 [TUniServerModule]:Server First Init.
+Admin.exe: 00003E84: 23:06:13 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003E84: 23:06:14 [TUniServerModule]:Global Cache Folder Erased. <9> Files deleted.
+Admin.exe: 00003E84: 23:06:14 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00003E84: 23:06:14 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 0000366C: 23:06:34 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079DD03
+Admin.exe: 00003748: 23:12:08 []:>--------------------------------------------------------------<
+Admin.exe: 00003748: 23:12:08 [TUniServerModule]:Server First Init.
+Admin.exe: 00003748: 23:12:08 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003748: 23:12:10 [TUniServerModule]:Global Cache Folder Erased. <64> Files deleted.
+Admin.exe: 00003748: 23:12:10 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00003748: 23:12:10 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00003DBC: 23:16:54 []:>--------------------------------------------------------------<
+Admin.exe: 00003DBC: 23:16:54 [TUniServerModule]:Server First Init.
+Admin.exe: 00003DBC: 23:16:54 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003DBC: 23:16:55 [TUniServerModule]:Global Cache Folder Erased. <67> Files deleted.
+Admin.exe: 00003DBC: 23:16:55 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00003DBC: 23:16:55 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00001E38: 23:17:21 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079DD03
+Admin.exe: 00003E58: 23:20:04 []:>--------------------------------------------------------------<
+Admin.exe: 00003E58: 23:20:04 [TUniServerModule]:Server First Init.
+Admin.exe: 00003E58: 23:20:04 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003E58: 23:20:06 [TUniServerModule]:Global Cache Folder Erased. <73> Files deleted.
+Admin.exe: 00003E58: 23:20:06 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00003E58: 23:20:06 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00003D64: 23:21:47 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079DD03
+Admin.exe: 00001060: 23:26:30 []:>--------------------------------------------------------------<
+Admin.exe: 00001060: 23:26:31 [TUniServerModule]:Server First Init.
+Admin.exe: 00001060: 23:26:31 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00001060: 23:26:32 [TUniServerModule]:Global Cache Folder Erased. <60> Files deleted.
+Admin.exe: 00001060: 23:26:32 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Admin.exe: 00001060: 23:26:32 [TUniServerModule]:HTTP Server Started on Port: 8077
+Admin.exe: 00001060: 23:33:58 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00001060: 23:33:58 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00001060: 23:33:59 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00001060: 23:33:59 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00001060: 23:33:59 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00001060: 23:33:59 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00001060: 23:33:59 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00001060: 23:33:59 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00001060: 23:33:59 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00001060: 23:33:59 []:<-------------------------------------------------------------->
+Admin.exe: 00001060: 23:33:59 [Terminated]:Exit Code: 0

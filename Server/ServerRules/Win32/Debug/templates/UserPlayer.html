@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Player - Academia de Pregadores
+</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slicknav.min.css">
+  <link rel="stylesheet" href="css/fa.min.css">
+  <link rel="stylesheet" href="css/quill.core.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/player.css">
+</head>
+
+<body class="player-body">
+  <nav id="menu" class="menu">
+    <ul>
+      <li>
+        <a href="#">
+          <img src="img/menu/home.png" class="menu-icon">
+          <img src="img/menu/home-active.png" class="menu-icon active">Página inicial
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/courses.png" class="menu-icon">
+          <img src="img/menu/courses-active.png" class="menu-icon active">Meus cursos
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/notes.png" class="menu-icon">
+          <img src="img/menu/notes-active.png" class="menu-icon active">Minhas anotações
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/history.png" class="menu-icon">
+          <img src="img/menu/history-active.png" class="menu-icon active">Meu histórico
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/archivements.png" class="menu-icon">
+          <img src="img/menu/archivements-active.png" class="menu-icon active">Minhas conquistas
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/terms.png" class="menu-icon">
+          <img src="img/menu/terms-active.png" class="menu-icon active">Termos
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/menu/about.png" class="menu-icon" />
+          <img src="img/menu/about-active.png" class="menu-icon active" />Sobre
+       </a>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="navbar-area-1">
+      <button class="toggle-menu">
+        <img src="img/menu.png" alt="Menu">
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="Logo Academia de Pregadores">
+      </a>
+    </div>
+    <div class="player-menu">
+      <ul>
+        <li><a href="#"><i class="fa fa-home"></i> Página Inicial</a></li>
+        <li><a href="#"><i class="fa fa-heart"></i> Meus Cursos</a></li>
+        <li><a href="#"><i class="fa fa-file-contract"></i> Meus Certificados</a></li>
+      </ul>
+    </div>
+    <div class="user-buttons">
+      <button class="btn-notifications">
+        <span class="notifications-badge">9</span>
+        <img src="img/notification-icon.png" alt="Meu perfil">
+      </button>
+      <button class="btn-profile" id="btn-open-menu-avatar">
+        <img src="img/user-icon.png" id="btn-avatar-image" alt="Meu perfil">
+      </button>
+    </div>
+  <div id="menu-avatar">
+    <div class="menu-avatar-content">
+      <button class="btn-menu-avatar">
+        <img src="img/avatar/user.png" class="menu-avatar-icon" alt="">
+        <img src="img/avatar/user-active.png" class="menu-avatar-icon active" alt="">
+        <span class="text">Meu perfil</span>
+      </button>
+      <button class="btn-menu-avatar">
+        <img src="img/avatar/archivements.png" class="menu-avatar-icon" alt="">
+        <img src="img/avatar/archivements-active.png" class="menu-avatar-icon active" alt="">
+        <span class="text">Minhas conquistas</span>
+      </button>
+      <button class="btn-menu-avatar">
+        <img src="img/avatar/money.png" class="menu-avatar-icon" alt="">
+        <img src="img/avatar/money-active.png" class="menu-avatar-icon active" alt="">
+        <span class="text">Meus créditos</span>
+      </button>
+      <button class="btn-menu-avatar">
+        <img src="img/avatar/logout.png" class="menu-avatar-icon" alt="">
+        <img src="img/avatar/logout-active.png" class="menu-avatar-icon active" alt="">
+        <span class="text">Sair</span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div id="panel">
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-9" id="player-col">
+        <div class="player-container" style="padding: 56.25% 0px 0px; position: relative;"><iframe src="https://player.vimeo.com/video/241579722?title=0&amp;byline=0&amp;portrait=0" frameborder="0" allowfullscreen="borl_attrinfo=&quot;'+src','+style','+frameborder','+allow','+allowfullscreen'&quot;" style="left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;" allow="autoplay; fullscreen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        <div class="buttons-player">
+          <div>
+            <button>
+              <i class="fa fa-headphones"></i>BAIXAR ÁUDIO DESTA AULA
+            </button>
+            <button>
+              <i class="fa fa-file-download"></i>Baixar apostila
+            </button>
+          </div>
+        </div>
+        <div class="notes-container">
+          <div class="notes-buttons">
+              <button>
+                  <i class="fa fa-file-export"></i>Exportar
+              </button>
+              <button>
+                  <i class="fa fa-save"></i>Salvar
+              </button>
+
+          </div>
+          <div class="notes">
+
+            <div id="toolbar">
+                <button class="ql-bold">
+                    <i class="fa fa-bold"></i>
+                  </button>
+                  <button class="ql-italic">
+                    <i class="fa fa-italic"></i>
+                  </button>
+
+            </div>
+            <div id="editor"></div>
+          </div>
+        </div>
+      </div>
+
+      <#PainelDireitoCursosModulosAulas>
+
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="footer-menu">
+        <a href="&#28;#">Termos e condições de uso</a>
+        <a href="&#28;#">Política de privacidade</a>
+      </div>
+      <div class="copy">2019 Todos os direitos reservados</div>
+      <div class="social">
+        <a href="#"><img src="img/facebok.png" alt="Facebook"></a>
+        <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="img/youtube.png" alt="Youtube"></a>
+        <a href="#"><img src="img/social.png" alt="Social"></a>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slideout.min.js"></script>
+<script src="js/quill.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/player.js"></script>
+<script>
+  var editor = new Quill('#editor', {
+    modules: { toolbar: '#toolbar' }
+  });
+</script>
+</body>
+</html>

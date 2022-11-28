@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/02 17:19:15.000.410,C:\wamp\www\Academiadepregadores\Server\FrmPrincipal.fmx=C:\wamp\www\Academiadepregadores\Server\ServerRules\FormUnit1.fmx</Transaction>
+    <Transaction>2019/01/02 17:19:15.000.410,C:\wamp\www\Academiadepregadores\Server\FrmPrincipal.pas=C:\wamp\www\Academiadepregadores\Server\ServerRules\FormUnit1.pas</Transaction>
+    <Transaction>2019/01/02 17:19:30.000.044,C:\wamp\www\Academiadepregadores\Server\ServerRules\WebModuleServerRules.pas=C:\wamp\www\Academiadepregadores\Server\ServerRules\WebModuleUnit1.pas</Transaction>
+    <Transaction>2019/01/02 17:19:30.000.044,C:\wamp\www\Academiadepregadores\Server\ServerRules\WebModuleServerRules.dfm=C:\wamp\www\Academiadepregadores\Server\ServerRules\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2019/01/02 17:19:37.000.496,C:\wamp\www\Academiadepregadores\Server\ServerRules\ServerMethodsServerRules.pas=C:\wamp\www\Academiadepregadores\Server\ServerRules\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2019/01/02 17:19:37.000.496,C:\wamp\www\Academiadepregadores\Server\ServerRules\ServerMethodsServerRules.dfm=C:\wamp\www\Academiadepregadores\Server\ServerRules\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2019/01/02 20:13:05.000.612,C:\wamp\www\Academiadepregadores\Server\ServerRules\Login\index.htm=C:\wamp\www\Academiadepregadores\Server\ServerRules\Untitled1.htm</Transaction>
+    <Transaction>2019/01/03 18:17:23.000.928,D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Server\udmDados.dfm=D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Server\ServerRules\Unit1.dfm</Transaction>
+    <Transaction>2019/01/11 22:44:46.000.229,D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Server\ServerRules\templates\UserPlayer.htm=D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Server\ServerRules\Untitled1.htm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="..\..\Server"/>
+    <File Path="..\FrmPrincipal.pas"/>
+    <File Path="..\FrmPrincipal.fmx"/>
+    <File Path="..\udmDados.pas"/>
+    <File Path="..\udmDados.dfm"/>
+    <File Path="css"/>
+    <File Path="css\home.container.css"/>
+    <File Path="css\home.destaques.css"/>
+    <File Path="css\home.header.css"/>
+    <File Path="css\home.mobile.css"/>
+    <File Path="css\home.style.css"/>
+    <File Path="css\login.style.css"/>
+    <File Path="css\main.css"/>
+    <File Path="css\player.container.css"/>
+    <File Path="css\player.header.css"/>
+    <File Path="css\player.mobile.css"/>
+    <File Path="css\player.player.css"/>
+    <File Path="css\player.style.css"/>
+    <File Path="css\serverfunctioninvoker.css"/>
+    <File Path="images"/>
+    <File Path="images\collapse.png"/>
+    <File Path="images\expand.png"/>
+    <File Path="js"/>
+    <File Path="js\ajax.js"/>
+    <File Path="js\base64-min.js"/>
+    <File Path="js\base64.js"/>
+    <File Path="js\callbackframework-min.js"/>
+    <File Path="js\callbackframework.js"/>
+    <File Path="js\connection.js"/>
+    <File Path="js\destaques.js"/>
+    <File Path="js\header.js"/>
+    <File Path="js\json2-min.js"/>
+    <File Path="js\json2.js"/>
+    <File Path="js\login.js"/>
+    <File Path="js\player.js"/>
+    <File Path="js\playlist.js"/>
+    <File Path="js\serverfunctionexecutor-min.js"/>
+    <File Path="js\serverfunctionexecutor.js"/>
+    <File Path="js\serverfunctioninvoker.js"/>
+    <File Path="js\serverfunctions.js"/>
+    <File Path="templates"/>
+    <File Path="templates\Home.html"/>
+    <File Path="templates\Login.html"/>
+    <File Path="templates\serverfunctioninvoker.html"/>
+    <File Path="templates\UserPlayer.html"/>
+    <File Path="ServerMethodsServerRules.pas"/>
+    <File Path="ServerMethodsServerRules.dfm"/>
+    <File Path="WebModuleServerRules.pas"/>
+    <File Path="WebModuleServerRules.dfm"/>
+    <File Path="Consts_HtmlHome.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

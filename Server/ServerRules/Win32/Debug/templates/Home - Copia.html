@@ -1,0 +1,953 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Academia de Pregadores
+</title>
+  <script type="text/javascript" src="js/base64.js"></script>
+  <script type="text/javascript" src="js/json2.js"></script>
+  <script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+  <script type="text/javascript" src="js/connection.js"></script>
+  <script type="text/javascript" src="<#serverfunctionsjs>"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/glide.core.min.css">
+  <link rel="stylesheet" href="css/slicknav.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+   <script type="text/javascript">
+
+function onLoad()
+{
+  setConnection('<#host>', '<#port>', '<#urlpath>');
+}
+
+
+function serverMethods()
+{
+  return new <#classname>(connectionInfo);
+}
+
+function onReverseStringClick()
+{
+  if (loginRequired && (AdminInst == null))
+  {
+    showLogin(true);
+    return;
+  }
+  var valueField = document.getElementById('valueField');
+  var s = serverMethods().ReverseString(valueField.value);
+  valueField.value = s.result;
+}
+
+function onLogin()
+    {
+
+      if (AdminInst == null)
+        {
+            var Logado = setCredentials(document.getElementById('userField').value, document.getElementById('passwrdField').value);
+
+            if (Logado)
+            {
+              var objJson = serverMethods().UrlTelaUserPlayer();
+              window.location.href = objJson.result;
+            }
+            else
+            {
+              loginCorrect(false);
+            }
+        }
+    }
+
+     function loginCorrect(isCorrect)
+    {
+      var errorDiv = document.getElementById('loginError');
+
+      if ( errorDiv != null )
+      {
+
+        if (isCorrect)
+        {
+
+           errorDiv.innerHTML= "";
+
+        } else
+        {
+
+          errorDiv.innerHTML = isCorrect ? "" : "Entrada incorreta!";
+        }
+
+      }
+    }
+</script>
+
+</head>
+
+<body onload="onLoad()">
+
+  <!-- MENU -->
+  <nav id="menu" class="menu">
+    <ul>
+      <li><a href="#">Página inicial</a></li>
+      <li><a href="#">Meus cursos</a></li>
+      <li><a href="#">Minhas anotações</a></li>
+      <li><a href="#">Meu histórico</a></li>
+      <li><a href="#">Minhas conquistas</a></li>
+      <li><a href="#">Termos</a></li>
+      <li><a href="#">Sobre</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <button class="toggle-menu">
+      <img src="img/menu.png" alt="Menu">
+    </button>
+
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" alt="Logo Academia de Pregadores">
+    </a>
+
+    <form class="form-inline navbar-search-wrapper">
+      <button class="btn-filter-icon">
+        <img src="img/funnel.png" alt="Icone de filtro">
+      </button>
+      <input class="form-control navbar-search-input" type="search" placeholder="Pesquise um conteúdo"
+        aria-label="Pesquisar" value="">
+      <button class="btn-search-icon">
+        <img src="img/search.png" alt="icone de busca">
+      </button>
+
+    </form>
+    <div class="user-buttons">
+      <button class="btn-notifications">
+        <img src="img/notification-icon.png" alt="Meu perfil">
+      </button>
+      <button class="btn-profile">
+        <img src="img/user-icon.png" alt="Meu perfil">
+      </button>
+    </div>
+  </nav>
+  <!-- FIM MENU -->
+
+  <div id="panel">
+    <main class="hero">
+
+    </main>
+
+    <!-- TRILHAS DESTAQUES -->
+    <section class="section-featured">
+      <div class="container-fluid">
+
+        <div class="section-content">
+        <h2 class="section-title">Destaques</h2>
+          <div class="glide" id="featured">
+            <div class="glide__track" data-glide-el="track">
+
+              <ul class="glide__slides">
+
+                <li class="glide__slide course-cover">
+                  <img src="img/_capa.jpg" alt="">
+                  <div class="course-info">
+                    <button class="btn-watch-now">
+                      <img src="img/watch-now-btn.png" alt="Assista agora">
+                    </button>
+                    <div class="course-data">
+                      <button class="add-to-my-courses">
+                        <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                      </button>
+                      <div class="course-hours">
+                        <img src="img/hours.png" alt="Horas">15h/Aula
+                      </div>
+                      <div class="course-classes">
+                        <img src="img/classes.png" alt="Aulas">8 Aulas
+                      </div>
+                    </div>
+                    <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-1" aria-expanded="true">
+                      <img src="img/see-more.png" alt="Veja mais">
+                    </button>
+                  </div>
+                </li>
+
+                <li class="glide__slide course-cover">
+                  <img src="img/_capa.jpg" alt="">
+                  <div class="course-info">
+                    <button class="btn-watch-now">
+                      <img src="img/watch-now-btn.png" alt="Assista agora">
+                    </button>
+                    <div class="course-data">
+                      <button class="add-to-my-courses">
+                        <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                      </button>
+                      <div class="course-hours">
+                        <img src="img/hours.png" alt="Horas">15h/Aula
+                      </div>
+                      <div class="course-classes">
+                        <img src="img/classes.png" alt="Aulas">8 Aulas
+                      </div>
+                    </div>
+                    <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-1" aria-expanded="true">
+                      <img src="img/see-more.png" alt="Veja mais">
+                    </button>
+                  </div>
+                </li>
+
+                <li class="glide__slide course-cover">
+                  <img src="img/_capa.jpg" alt="">
+                  <div class="course-info">
+                    <button class="btn-watch-now">
+                      <img src="img/watch-now-btn.png" alt="Assista agora">
+                    </button>
+                    <div class="course-data">
+                      <button class="add-to-my-courses">
+                        <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                      </button>
+                      <div class="course-hours">
+                        <img src="img/hours.png" alt="Horas">15h/Aula
+                      </div>
+                      <div class="course-classes">
+                        <img src="img/classes.png" alt="Aulas">8 Aulas
+                      </div>
+                    </div>
+                    <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-1" aria-expanded="true">
+                      <img src="img/see-more.png" alt="Veja mais">
+                    </button>
+                  </div>
+                </li>
+
+                <li class="glide__slide course-cover">
+                  <img src="img/_capa.jpg" alt="">
+                  <div class="course-info">
+                    <button class="btn-watch-now">
+                      <img src="img/watch-now-btn.png" alt="Assista agora">
+                    </button>
+                    <div class="course-data">
+                      <button class="add-to-my-courses">
+                        <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                      </button>
+                      <div class="course-hours">
+                        <img src="img/hours.png" alt="Horas">15h/Aula
+                      </div>
+                      <div class="course-classes">
+                        <img src="img/classes.png" alt="Aulas">8 Aulas
+                      </div>
+                    </div>
+                    <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-1" aria-expanded="true">
+                      <img src="img/see-more.png" alt="Veja mais">
+                    </button>
+                  </div>
+                </li>
+
+                <li class="glide__slide course-cover">
+                  <img src="img/_capa.jpg" alt="">
+                  <div class="course-info">
+                    <button class="btn-watch-now">
+                      <img src="img/watch-now-btn.png" alt="Assista agora">
+                    </button>
+                    <div class="course-data">
+                      <button class="add-to-my-courses">
+                        <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                      </button>
+                      <div class="course-hours">
+                        <img src="img/hours.png" alt="Horas">15h/Aula
+                      </div>
+                      <div class="course-classes">
+                        <img src="img/classes.png" alt="Aulas">8 Aulas
+                      </div>
+                    </div>
+                    <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-1" aria-expanded="true">
+                      <img src="img/see-more.png" alt="Veja mais">
+                    </button>
+                  </div>
+                </li>
+
+                <li class="glide__slide course-cover">
+                  <img src="img/_capa.jpg" alt="">
+                  <div class="course-info">
+                    <button class="btn-watch-now">
+                      <img src="img/watch-now-btn.png" alt="Assista agora">
+                    </button>
+                    <div class="course-data">
+                      <button class="add-to-my-courses">
+                        <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                      </button>
+                      <div class="course-hours">
+                        <img src="img/hours.png" alt="Horas">15h/Aula
+                      </div>
+                      <div class="course-classes">
+                        <img src="img/classes.png" alt="Aulas">8 Aulas
+                      </div>
+                    </div>
+                    <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-1"
+                      aria-expanded="true">
+                      <img src="img/see-more.png" alt="Veja mais">
+                    </button>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <img src="img/arrow-left.png" alt="Voltar">
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <img src="img/arrow-right.png" alt="Avançar">
+              </button>
+            </div>
+          </div>
+
+          <!-- Banner de detalhamento que clica pra baixo e vídeo vimeo -->
+          <div class="collapse course-collapse" id="course-more-1">
+            <div class="card card-body">
+              <button class="close" data-toggle="collapse" data-target="#course-more-1">X</button>
+              <img src="img/_chamada_imagem_que_vai_quando_clica_no_curso.png" alt="">
+
+              <iframe width="533" height="300" class="course-video-preview" src="https://player.vimeo.com/video/38905763?title=0&amp;byline=0&amp;portrait=0" frameborder="0" allowfullscreen="borl_attrinfo=&quot;'+class','%0A++++++++++++++++src','+width','+height','%0A++++++++++++++++frameborder','+allow','+allowfullscreen'" allow="autoplay; fullscreen"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- TRILHAS CONTINUAR ASSISTINDO -->
+    <section class="section">
+        <div class="container-fluid">
+
+          <div class="section-content">
+          <h2 class="section-title">Continuar assistindo</h2>
+            <div class="glide" id="continue">
+              <div class="glide__track" data-glide-el="track">
+
+                <ul class="glide__slides">
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-2" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-2" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-2" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-2" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-2"
+                        aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-2" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
+              <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                  <img src="img/arrow-left.png" alt="Voltar">
+                </button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                  <img src="img/arrow-right.png" alt="Avançar">
+                </button>
+              </div>
+            </div>
+
+            <!-- Banner de detalhamento que clica pra baixo e vídeo vimeo -->
+            <div class="collapse course-collapse" id="course-more-2">
+              <div class="card card-body">
+                <button class="close" data-toggle="collapse" data-target="#course-more-2">X</button>
+                <img src="img/_chamada_imagem_que_vai_quando_clica_no_curso.png" alt="">
+                <iframe width="533" height="300" class="course-video-preview" src="https://player.vimeo.com/video/38905763?title=0&amp;byline=0&amp;portrait=0" frameborder="0" allowfullscreen="borl_attrinfo=&quot;'+class','%0A++++++++++++++++++src','+width','+height','%0A++++++++++++++++++frameborder','+allow','+allowfullscr" allow="autoplay; fullscreen"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- TRILHAS CURSOS EVANGÉLICOS -->
+    <section class="section">
+        <div class="container-fluid">
+
+          <div class="section-content">
+          <h2 class="section-title">Cursos evangélicos</h2>
+            <div class="glide" id="courses">
+              <div class="glide__track" data-glide-el="track">
+
+                <ul class="glide__slides">
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-3" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-3" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-3" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-3" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-3" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-3" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
+              <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                  <img src="img/arrow-left.png" alt="Voltar">
+                </button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                  <img src="img/arrow-right.png" alt="Avançar">
+                </button>
+              </div>
+            </div>
+
+            <!-- Banner de detalhamento que clica pra baixo e vídeo vimeo -->
+            <div class="collapse course-collapse" id="course-more-3">
+              <div class="card card-body">
+                <button class="close" data-toggle="collapse" data-target="#course-more-3">X</button>
+                <img src="img/_chamada_imagem_que_vai_quando_clica_no_curso.png" alt="">
+                <iframe width="533" height="300" class="course-video-preview" src="https://player.vimeo.com/video/38905763?title=0&amp;byline=0&amp;portrait=0" frameborder="0" allowfullscreen="borl_attrinfo=&quot;'+class','%0A++++++++++++++++++src','+width','+height','%0A++++++++++++++++++frameborder','+allow','+allowfullscr" allow="autoplay; fullscreen"></iframe>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+    </section>
+
+    <!-- TRILHAS ADMINISTRAÇÃO ECLESIÁSTICA -->
+    <section class="section">
+        <div class="container-fluid">
+          <div class="section-content">
+          <h2 class="section-title">Administração eclesiástica</h2>
+            <div class="glide" id="admin">
+              <div class="glide__track" data-glide-el="track">
+
+                <ul class="glide__slides">
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-4" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-4" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-4" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-4" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-4" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="glide__slide course-cover">
+                    <img src="img/_capa.jpg" alt="">
+                    <div class="course-info">
+                      <button class="btn-watch-now">
+                        <img src="img/watch-now-btn.png" alt="Assista agora">
+                      </button>
+                      <div class="course-data">
+                        <button class="add-to-my-courses">
+                          <img src="img/add-to-my.png" alt="Meus cursos">Meus cursos
+                        </button>
+                        <div class="course-hours">
+                          <img src="img/hours.png" alt="Horas">15h/Aula
+                        </div>
+                        <div class="course-classes">
+                          <img src="img/classes.png" alt="Aulas">8 Aulas
+                        </div>
+                      </div>
+                      <button class="btn-see-more" data-toggle="collapse" data-target="#course-more-4" aria-expanded="true">
+                        <img src="img/see-more.png" alt="Veja mais">
+                      </button>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
+              <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                  <img src="img/arrow-left.png" alt="Voltar">
+                </button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                  <img src="img/arrow-right.png" alt="Avançar">
+                </button>
+              </div>
+            </div>
+
+            <!-- Banner de detalhamento que clica pra baixo e vídeo vimeo -->
+            <div class="collapse course-collapse" id="course-more-4">
+              <div class="card card-body">
+                <button class="close" data-toggle="collapse" data-target="#course-more-4">X
+                </button>
+                <img src="img/_chamada_imagem_que_vai_quando_clica_no_curso.png" alt="">
+                <iframe width="533" height="300" class="course-video-preview" src="https://player.vimeo.com/video/38905763?title=0&amp;byline=0&amp;portrait=0" frameborder="0" allowfullscreen="borl_attrinfo=&quot;'+class','%0A++++++++++++++++++src','+width','+height','%0A++++++++++++++++++frameborder','+allow','+allowfullscr" allow="autoplay; fullscreen"></iframe>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="footer-menu">
+          <a href="&#28;#">Termos e condições de uso</a>
+          <a href="&#28;#">Política de privacidade</a>
+        </div>
+        <div class="copy">2019 Todos os direitos reservados</div>
+        <div class="social">Facebook</div>
+        <#Jeffer>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/glide.min.js"></script>
+  <script src="js/slideout.min.js"></script>
+  <script>
+    var glide = new Glide('#featured', {
+      type: 'carousel',
+      startAt: 0,
+      perView: 5,
+      gap: 20,
+      rewind: false,
+      breakpoints: {
+        1024: {
+          perView: 3
+        },
+        480: {
+          perView: 2
+        }
+      }
+    })
+
+    glide.mount()
+
+    var glide2 = new Glide('#continue', {
+      type: 'carousel',
+      startAt: 0,
+      perView: 5,
+      gap: 20,
+      rewind: false,
+      breakpoints: {
+        1024: {
+          perView: 3
+        },
+        480: {
+          perView: 2
+        }
+      }
+    })
+
+    glide2.mount()
+
+    var glide2 = new Glide('#courses', {
+      type: 'carousel',
+      startAt: 0,
+      perView: 5,
+      gap: 20,
+      rewind: false,
+      breakpoints: {
+        1024: {
+          perView: 3
+        },
+        480: {
+          perView: 2
+        }
+      }
+    })
+
+    glide2.mount()
+
+    var glide2 = new Glide('#admin', {
+      type: 'carousel',
+      startAt: 0,
+      perView: 5,
+      gap: 20,
+      rewind: false,
+      breakpoints: {
+        1024: {
+          perView: 3
+        },
+        480: {
+          perView: 2
+        }
+      }
+    })
+
+    glide2.mount()
+  </script>
+
+  <script>
+    var slideout = new Slideout({
+      'panel': document.getElementById('panel'),
+      'menu': document.getElementById('menu'),
+      'padding': 256,
+      'tolerance': 70
+    });
+
+    document.querySelector('.toggle-menu').addEventListener('click', function () {
+      slideout.toggle();
+    });
+  </script>
+
+</body>
+
+</html>

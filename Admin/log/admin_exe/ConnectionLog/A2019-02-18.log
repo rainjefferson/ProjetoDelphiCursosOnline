@@ -1,0 +1,23 @@
+Admin.exe: 00000F78: 22:56:34 [127.0.0.1]:Failed Sequence Recovery: SeqId: 44, Event: select
+Admin.exe: 00001CFC: 22:56:34 [127.0.0.1]:Failed Sequence Recovery: SeqId: 45, Event: cellclick
+Admin.exe: 00002080: 22:56:36 [127.0.0.1]:Failed Sequence Recovery: SeqId: 43, Event: edit
+Admin.exe: 00003814: 22:56:36 [127.0.0.1]:Sequence Error Timeout : TDiff:53313, Event: cellclick, Expected: 44, Received: 45, [i78jcpxRee1035E8D31]
+Admin.exe: 00003814: 22:56:36 [127.0.0.1]:Failed Sequence Reset to: 44
+Admin.exe: 00000F78: 22:56:36 [127.0.0.1]:Processing: Id: 44, Evt: select
+Admin.exe: 00000F78: 22:56:36 [127.0.0.1]:Processed: Id: 44, Evt: select, [i78jcpxRee1035E8D31]
+Admin.exe: 00001CFC: 22:56:36 [127.0.0.1]:Processing: Id: 45, Evt: cellclick
+Admin.exe: 00001CFC: 22:56:36 [127.0.0.1]:Processed: Id: 45, Evt: cellclick, [i78jcpxRee1035E8D31]
+Admin.exe: 00000850: 22:56:36 [127.0.0.1]:Sequence sent from cache:  SeqId: 44
+Admin.exe: 00002080: 22:56:36 [127.0.0.1]:Sequence sent from cache:  SeqId: 43
+Admin.exe: 00002080: 22:56:37 [127.0.0.1]:Processed: Id: 43, Evt: edit, [i78jcpxRee1035E8D31]
+Admin.exe: 00003E64: 22:58:04 [127.0.0.1]:Failed Sequence Recovery: SeqId: 57, Event: select
+Admin.exe: 000013E4: 22:58:04 [127.0.0.1]:Failed Sequence Recovery: SeqId: 58, Event: cellclick
+Admin.exe: 000012E4: 22:58:05 [127.0.0.1]:Failed Sequence Recovery: SeqId: 56, Event: edit
+Admin.exe: 00003E64: 22:58:05 [127.0.0.1]:Processing: Id: 57, Evt: select
+Admin.exe: 00003E64: 22:58:06 [127.0.0.1]:Processed: Id: 57, Evt: select, [i78jcpxRee1035E8D31]
+Admin.exe: 000012E4: 22:58:06 [127.0.0.1]:Sequence sent from cache:  SeqId: 56
+Admin.exe: 000012E4: 22:58:06 [127.0.0.1]:Processed: Id: 56, Evt: edit, [i78jcpxRee1035E8D31]
+Admin.exe: 000013E4: 22:58:06 [127.0.0.1]:Processing: Id: 58, Evt: cellclick
+Admin.exe: 000013E4: 22:58:06 [127.0.0.1]:Processed: Id: 58, Evt: cellclick, [i78jcpxRee1035E8D31]
+Admin.exe: 00003CEC: 22:58:06 [127.0.0.1]:Sequence sent from cache:  SeqId: 58
+Admin.exe: 000005E8: 22:58:08 [127.0.0.1]:Sequence sent from cache:  SeqId: 57

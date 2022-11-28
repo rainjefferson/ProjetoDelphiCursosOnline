@@ -1,0 +1,427 @@
+Admin.exe: 0000321C: 20:28:17 []:>--------------------------------------------------------------<
+Admin.exe: 0000321C: 20:28:17 [TUniServerModule]:Server First Init.
+Admin.exe: 0000321C: 20:28:17 [TUniServerModule]:Global Cache Folder Erased. <9> Files deleted.
+Admin.exe: 0000321C: 20:28:17 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 0000321C: 20:28:18 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002D78: 20:29:02 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 0000276C: 21:42:45 []:>--------------------------------------------------------------<
+Admin.exe: 0000276C: 21:42:45 [TUniServerModule]:Server First Init.
+Admin.exe: 0000276C: 21:42:46 [TUniServerModule]:Global Cache Folder Erased. <9> Files deleted.
+Admin.exe: 0000276C: 21:42:46 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 0000276C: 21:42:46 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000276C: 21:43:41 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 0000276C: 21:43:41 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 0000276C: 21:43:44 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 0000276C: 21:43:44 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 0000276C: 21:43:44 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 0000276C: 21:43:44 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 0000276C: 21:43:44 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 0000276C: 21:43:45 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 0000276C: 21:43:45 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 0000276C: 21:43:45 []:<-------------------------------------------------------------->
+Admin.exe: 0000276C: 21:43:45 [Terminated]:Exit Code: 0
+Admin.exe: 0000158C: 21:44:42 []:>--------------------------------------------------------------<
+Admin.exe: 0000158C: 21:44:42 [TUniServerModule]:Server First Init.
+Admin.exe: 0000158C: 21:44:42 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 0000158C: 21:44:42 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000158C: 21:48:27 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 0000158C: 21:48:27 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 0000158C: 21:48:28 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 0000158C: 21:48:28 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 0000158C: 21:48:28 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 0000158C: 21:48:28 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 0000158C: 21:48:28 [TUniGUISessionManager]:Waiting for session manager thread...
+Admin.exe: 00002010: 21:50:11 []:>--------------------------------------------------------------<
+Admin.exe: 00002010: 21:50:11 [TUniServerModule]:Server First Init.
+Admin.exe: 00002010: 21:50:11 [TUniServerModule]:Global Cache Folder Erased. <11> Files deleted.
+Admin.exe: 00002010: 21:50:11 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002010: 21:50:11 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002010: 21:50:16 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00002010: 21:50:16 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00002010: 21:50:17 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00002010: 21:50:17 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00002010: 21:50:17 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00002010: 21:50:17 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00002010: 21:50:17 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00002010: 21:50:17 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00002010: 21:50:17 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00002010: 21:50:17 []:<-------------------------------------------------------------->
+Admin.exe: 00002010: 21:50:17 [Terminated]:Exit Code: 0
+Admin.exe: 00003134: 21:51:25 []:>--------------------------------------------------------------<
+Admin.exe: 00003134: 21:51:25 [TUniServerModule]:Server First Init.
+Admin.exe: 00003134: 21:51:25 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003134: 21:51:25 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003134: 21:53:54 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00003134: 21:53:54 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00003134: 21:53:55 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00003134: 21:53:55 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00003134: 21:53:55 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00003134: 21:53:55 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00003134: 21:53:55 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00003134: 21:53:55 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00003134: 21:53:55 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00003134: 21:53:55 []:<-------------------------------------------------------------->
+Admin.exe: 00003134: 21:53:55 [Terminated]:Exit Code: 0
+Admin.exe: 00002CCC: 21:54:25 []:>--------------------------------------------------------------<
+Admin.exe: 00002CCC: 21:54:25 [TUniServerModule]:Server First Init.
+Admin.exe: 00002CCC: 21:54:25 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002CCC: 21:54:25 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00001158: 21:54:27 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00002CCC: 21:56:20 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00002CCC: 21:56:20 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00002CCC: 21:56:21 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00002CCC: 21:56:21 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00002CCC: 21:56:21 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00002CCC: 21:56:21 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00002CCC: 21:56:21 [TUniGUISessionManager]:Waiting for session manager thread...
+Admin.exe: 00001E2C: 21:57:05 []:>--------------------------------------------------------------<
+Admin.exe: 00001E2C: 21:57:05 [TUniServerModule]:Server First Init.
+Admin.exe: 00001E2C: 21:57:05 [TUniServerModule]:Global Cache Folder Erased. <11> Files deleted.
+Admin.exe: 00001E2C: 21:57:05 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001E2C: 21:57:05 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00000AE8: 22:00:13 []:>--------------------------------------------------------------<
+Admin.exe: 00000AE8: 22:00:13 [TUniServerModule]:Server First Init.
+Admin.exe: 00000AE8: 22:00:14 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+Admin.exe: 00000AE8: 22:00:14 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00000AE8: 22:00:21 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. Address and port are already in use. : Addr: $006FE171
+Admin.exe: 00001E2C: 22:00:30 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00001E2C: 22:00:30 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00001E2C: 22:00:31 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00001E2C: 22:00:31 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00001E2C: 22:00:31 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00001E2C: 22:00:31 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00001E2C: 22:00:31 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00001E2C: 22:00:31 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00001E2C: 22:00:31 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00001E2C: 22:00:31 []:<-------------------------------------------------------------->
+Admin.exe: 00001E2C: 22:00:31 [Terminated]:Exit Code: 0
+Admin.exe: 00002480: 22:00:42 []:>--------------------------------------------------------------<
+Admin.exe: 00002480: 22:00:42 [TUniServerModule]:Server First Init.
+Admin.exe: 00002480: 22:00:42 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002480: 22:00:42 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000002C0: 22:00:58 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00002480: 22:02:20 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00002480: 22:02:20 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00002480: 22:02:21 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00002480: 22:02:21 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00002480: 22:02:21 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00002480: 22:02:21 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00002480: 22:02:21 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00002480: 22:02:21 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00002480: 22:02:22 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00002480: 22:02:22 []:<-------------------------------------------------------------->
+Admin.exe: 00002480: 22:02:22 [Terminated]:Exit Code: 0
+Admin.exe: 0000065C: 22:03:17 []:>--------------------------------------------------------------<
+Admin.exe: 0000065C: 22:03:17 [TUniServerModule]:Server First Init.
+Admin.exe: 0000065C: 22:03:17 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 0000065C: 22:03:17 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000253C: 22:03:20 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 0000065C: 22:04:38 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 0000065C: 22:04:38 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 0000065C: 22:04:39 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 0000065C: 22:04:39 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 0000065C: 22:04:39 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 0000065C: 22:04:39 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 0000065C: 22:04:39 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 0000065C: 22:04:39 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 0000065C: 22:04:39 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 0000065C: 22:04:39 []:<-------------------------------------------------------------->
+Admin.exe: 0000065C: 22:04:39 [Terminated]:Exit Code: 0
+Admin.exe: 000002AC: 22:06:20 []:>--------------------------------------------------------------<
+Admin.exe: 000002AC: 22:06:20 [TUniServerModule]:Server First Init.
+Admin.exe: 000002AC: 22:06:20 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000002AC: 22:06:20 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000023EC: 22:06:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 000002AC: 22:08:22 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 000002AC: 22:08:22 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 000002AC: 22:08:23 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 000002AC: 22:08:23 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 000002AC: 22:08:23 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 000002AC: 22:08:23 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 000002AC: 22:08:23 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 000002AC: 22:08:23 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 000002AC: 22:08:24 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 000002AC: 22:08:24 []:<-------------------------------------------------------------->
+Admin.exe: 000002AC: 22:08:24 [Terminated]:Exit Code: 0
+Admin.exe: 000015D8: 22:08:33 []:>--------------------------------------------------------------<
+Admin.exe: 000015D8: 22:08:33 [TUniServerModule]:Server First Init.
+Admin.exe: 000015D8: 22:08:33 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000015D8: 22:08:33 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00001764: 22:08:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 000015D8: 22:14:29 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 000015D8: 22:14:29 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 000015D8: 22:14:30 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 000015D8: 22:14:30 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 000015D8: 22:14:30 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 000015D8: 22:14:30 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 000015D8: 22:14:30 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 000015D8: 22:14:30 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 000015D8: 22:14:30 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 000015D8: 22:14:30 []:<-------------------------------------------------------------->
+Admin.exe: 000015D8: 22:14:30 [Terminated]:Exit Code: 0
+Admin.exe: 00000D24: 22:15:30 []:>--------------------------------------------------------------<
+Admin.exe: 00000D24: 22:15:30 [TUniServerModule]:Server First Init.
+Admin.exe: 00000D24: 22:15:30 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00000D24: 22:15:30 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000026F8: 22:15:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00000D24: 22:16:10 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00000D24: 22:16:10 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00000D24: 22:16:11 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00000D24: 22:16:11 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00000D24: 22:16:11 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00000D24: 22:16:11 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00000D24: 22:16:11 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00000D24: 22:16:11 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00000D24: 22:16:11 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00000D24: 22:16:11 []:<-------------------------------------------------------------->
+Admin.exe: 00000D24: 22:16:11 [Terminated]:Exit Code: 0
+Admin.exe: 00002C94: 22:16:27 []:>--------------------------------------------------------------<
+Admin.exe: 00002C94: 22:16:27 [TUniServerModule]:Server First Init.
+Admin.exe: 00002C94: 22:16:27 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002C94: 22:16:27 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000245C: 22:16:31 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00002C94: 22:18:50 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00002C94: 22:18:50 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00002C94: 22:18:51 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00002C94: 22:18:51 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00002C94: 22:18:51 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00002C94: 22:18:51 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00002C94: 22:18:51 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00002C94: 22:18:51 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00002C94: 22:18:51 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00002C94: 22:18:51 []:<-------------------------------------------------------------->
+Admin.exe: 00002C94: 22:18:51 [Terminated]:Exit Code: 0
+Admin.exe: 00002D9C: 22:19:03 []:>--------------------------------------------------------------<
+Admin.exe: 00002D9C: 22:19:03 [TUniServerModule]:Server First Init.
+Admin.exe: 00002D9C: 22:19:03 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002D9C: 22:19:03 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003164: 22:19:06 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00002D9C: 22:26:09 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00002D9C: 22:26:09 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00002D9C: 22:26:10 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00002D9C: 22:26:10 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00002D9C: 22:26:10 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00002D9C: 22:26:10 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00002D9C: 22:26:10 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00002D9C: 22:26:10 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00002D9C: 22:26:10 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00002D9C: 22:26:10 []:<-------------------------------------------------------------->
+Admin.exe: 00002D9C: 22:26:10 [Terminated]:Exit Code: 0
+Admin.exe: 00002220: 22:26:25 []:>--------------------------------------------------------------<
+Admin.exe: 00002220: 22:26:25 [TUniServerModule]:Server First Init.
+Admin.exe: 00002220: 22:26:25 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002220: 22:26:25 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002974: 22:26:31 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00002220: 22:37:59 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00002220: 22:37:59 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00002220: 22:38:00 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00002220: 22:38:00 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00002220: 22:38:00 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00002220: 22:38:00 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00002220: 22:38:00 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00002220: 22:38:00 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00002220: 22:38:00 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00002220: 22:38:00 []:<-------------------------------------------------------------->
+Admin.exe: 00002220: 22:38:00 [Terminated]:Exit Code: 0
+Admin.exe: 00003420: 22:50:13 []:>--------------------------------------------------------------<
+Admin.exe: 00003420: 22:50:13 [TUniServerModule]:Server First Init.
+Admin.exe: 00003420: 22:50:13 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003420: 22:50:13 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000032DC: 22:50:36 []:>--------------------------------------------------------------<
+Admin.exe: 000032DC: 22:50:36 [TUniServerModule]:Server First Init.
+Admin.exe: 000032DC: 22:50:36 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000032DC: 22:50:36 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000036A8: 22:51:43 []:>--------------------------------------------------------------<
+Admin.exe: 000036A8: 22:51:43 [TUniServerModule]:Server First Init.
+Admin.exe: 000036A8: 22:51:44 [TUniServerModule]:Global Cache Folder Erased. <12> Files deleted.
+Admin.exe: 000036A8: 22:51:44 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000036A8: 22:51:46 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. Address and port are already in use. : Addr: $006FE171
+Admin.exe: 000032DC: 22:51:56 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 000032DC: 22:51:56 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 000032DC: 22:51:57 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 000032DC: 22:51:57 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 000032DC: 22:51:57 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 000032DC: 22:51:57 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 000032DC: 22:51:57 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 000032DC: 22:51:57 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 000032DC: 22:51:57 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 000032DC: 22:51:57 []:<-------------------------------------------------------------->
+Admin.exe: 000032DC: 22:51:57 [Terminated]:Exit Code: 0
+Admin.exe: 00001364: 22:52:06 []:>--------------------------------------------------------------<
+Admin.exe: 00001364: 22:52:06 [TUniServerModule]:Server First Init.
+Admin.exe: 00001364: 22:52:06 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001364: 22:52:06 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000031B0: 22:52:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00001364: 22:53:40 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00001364: 22:53:40 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00001364: 22:53:41 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00001364: 22:53:41 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00001364: 22:53:41 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00001364: 22:53:41 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00001364: 22:53:41 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00001364: 22:53:41 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00001364: 22:53:42 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00001364: 22:53:42 []:<-------------------------------------------------------------->
+Admin.exe: 00001364: 22:53:42 [Terminated]:Exit Code: 0
+Admin.exe: 00002960: 22:54:36 []:>--------------------------------------------------------------<
+Admin.exe: 00002960: 22:54:36 [TUniServerModule]:Server First Init.
+Admin.exe: 00002960: 22:54:36 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002960: 22:54:36 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000237C: 22:54:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00002960: 22:55:24 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00002960: 22:55:24 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00002960: 22:55:25 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00002960: 22:55:25 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00002960: 22:55:25 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00002960: 22:55:25 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00002960: 22:55:25 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00002960: 22:55:25 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00002960: 22:55:25 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00002960: 22:55:25 []:<-------------------------------------------------------------->
+Admin.exe: 00002960: 22:55:25 [Terminated]:Exit Code: 0
+Admin.exe: 00001570: 22:55:35 []:>--------------------------------------------------------------<
+Admin.exe: 00001570: 22:55:35 [TUniServerModule]:Server First Init.
+Admin.exe: 00001570: 22:55:35 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001570: 22:55:35 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002044: 22:55:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00001570: 22:56:34 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00001570: 22:56:34 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00001570: 22:56:35 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00001570: 22:56:35 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00001570: 22:56:35 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00001570: 22:56:35 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00001570: 22:56:35 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00001570: 22:56:35 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00001570: 22:56:35 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00001570: 22:56:35 []:<-------------------------------------------------------------->
+Admin.exe: 00001570: 22:56:35 [Terminated]:Exit Code: 0
+Admin.exe: 00001508: 22:57:29 []:>--------------------------------------------------------------<
+Admin.exe: 00001508: 22:57:29 [TUniServerModule]:Server First Init.
+Admin.exe: 00001508: 22:57:29 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001508: 22:57:29 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00001308: 22:57:35 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00001508: 23:04:24 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00001508: 23:04:24 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00001508: 23:04:25 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00001508: 23:04:25 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00001508: 23:04:25 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00001508: 23:04:25 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00001508: 23:04:25 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00001508: 23:04:25 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00001508: 23:04:26 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00001508: 23:04:26 []:<-------------------------------------------------------------->
+Admin.exe: 00001508: 23:04:26 [Terminated]:Exit Code: 0
+Admin.exe: 000021D8: 23:04:34 []:>--------------------------------------------------------------<
+Admin.exe: 000021D8: 23:04:34 [TUniServerModule]:Server First Init.
+Admin.exe: 000021D8: 23:04:35 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000021D8: 23:04:35 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002008: 23:04:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 000021D8: 23:05:19 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 000021D8: 23:05:19 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 000021D8: 23:05:20 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 000021D8: 23:05:20 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 000021D8: 23:05:20 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 000021D8: 23:05:20 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 000021D8: 23:05:20 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 000021D8: 23:05:20 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 000021D8: 23:05:20 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 000021D8: 23:05:20 []:<-------------------------------------------------------------->
+Admin.exe: 000021D8: 23:05:20 [Terminated]:Exit Code: 0
+Admin.exe: 000033AC: 23:06:11 []:>--------------------------------------------------------------<
+Admin.exe: 000033AC: 23:06:11 [TUniServerModule]:Server First Init.
+Admin.exe: 000033AC: 23:06:11 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000033AC: 23:06:11 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00001284: 23:06:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 000033AC: 23:07:25 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 000033AC: 23:07:25 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 000033AC: 23:07:26 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 000033AC: 23:07:26 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 000033AC: 23:07:26 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 000033AC: 23:07:26 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 000033AC: 23:07:26 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 000033AC: 23:07:26 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 000033AC: 23:07:27 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 000033AC: 23:07:27 []:<-------------------------------------------------------------->
+Admin.exe: 000033AC: 23:07:27 [Terminated]:Exit Code: 0
+Admin.exe: 00001D6C: 23:18:50 []:>--------------------------------------------------------------<
+Admin.exe: 00001D6C: 23:18:50 [TUniServerModule]:Server First Init.
+Admin.exe: 00001D6C: 23:18:50 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001D6C: 23:18:50 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000027C0: 23:18:54 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 000028FC: 23:19:47 [127.0.0.1]:EFDException : [FireDAC][Comp][Clnt]-511. Dataset [tblUsers] must be in cached update mode : Addr: $007E3D52
+Admin.exe: 00001D6C: 23:21:46 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00001D6C: 23:21:46 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00001D6C: 23:21:47 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00001D6C: 23:21:47 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00001D6C: 23:21:47 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00001D6C: 23:21:47 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00001D6C: 23:21:47 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00001D6C: 23:21:47 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00001D6C: 23:21:47 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00001D6C: 23:21:47 []:<-------------------------------------------------------------->
+Admin.exe: 00001D6C: 23:21:47 [Terminated]:Exit Code: 0
+Admin.exe: 00002478: 23:22:04 []:>--------------------------------------------------------------<
+Admin.exe: 00002478: 23:22:04 [TUniServerModule]:Server First Init.
+Admin.exe: 00002478: 23:22:04 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002478: 23:22:04 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002E40: 23:22:12 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00001360: 23:22:41 [127.0.0.1]:EFDException : [FireDAC][Comp][Clnt]-511. Dataset [tblUsers] must be in cached update mode : Addr: $007E3D52
+Admin.exe: 00002478: 23:23:18 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00002478: 23:23:18 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00002478: 23:23:19 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00002478: 23:23:19 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00002478: 23:23:19 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00002478: 23:23:19 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00002478: 23:23:19 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00002478: 23:23:19 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00002478: 23:23:19 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00002478: 23:23:19 []:<-------------------------------------------------------------->
+Admin.exe: 00002478: 23:23:19 [Terminated]:Exit Code: 0
+Admin.exe: 00000CD8: 23:24:24 []:>--------------------------------------------------------------<
+Admin.exe: 00000CD8: 23:24:24 [TUniServerModule]:Server First Init.
+Admin.exe: 00000CD8: 23:24:24 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00000CD8: 23:24:24 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000023EC: 23:24:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0079E03B
+Admin.exe: 00000CD8: 23:24:55 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00000CD8: 23:24:55 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00000CD8: 23:24:56 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00000CD8: 23:24:56 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00000CD8: 23:24:56 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00000CD8: 23:24:56 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00000CD8: 23:24:56 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00000CD8: 23:24:56 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00000CD8: 23:24:56 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00000CD8: 23:24:56 []:<-------------------------------------------------------------->
+Admin.exe: 00000CD8: 23:24:56 [Terminated]:Exit Code: 0
+Admin.exe: 00000D68: 23:25:02 []:>--------------------------------------------------------------<
+Admin.exe: 00000D68: 23:25:02 [TUniServerModule]:Server First Init.
+Admin.exe: 00000D68: 23:25:02 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00000D68: 23:25:02 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000020FC: 23:27:48 [127.0.0.1]:EFDException : [FireDAC][Comp][Clnt]-511. Dataset [tblUsers] must be in cached update mode : Addr: $007E3D52
+Admin.exe: 000020FC: 23:27:51 [127.0.0.1]:EFDException : [FireDAC][Comp][Clnt]-511. Dataset [tblUsers] must be in cached update mode : Addr: $007E3D52
+Admin.exe: 00000D68: 23:28:01 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00000D68: 23:28:01 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00000D68: 23:28:02 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00000D68: 23:28:02 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00000D68: 23:28:02 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00000D68: 23:28:02 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00000D68: 23:28:02 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00000D68: 23:28:02 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00000D68: 23:28:02 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00000D68: 23:28:02 []:<-------------------------------------------------------------->
+Admin.exe: 00000D68: 23:28:02 [Terminated]:Exit Code: 0
+Admin.exe: 00003574: 23:28:51 []:>--------------------------------------------------------------<
+Admin.exe: 00003574: 23:28:51 [TUniServerModule]:Server First Init.
+Admin.exe: 00003574: 23:28:51 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003574: 23:28:51 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003574: 23:46:33 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00003574: 23:46:33 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 00003574: 23:46:33 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 00003574: 23:46:33 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 00003574: 23:46:34 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 00003574: 23:46:34 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 00003574: 23:46:34 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 00003574: 23:46:34 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 00003574: 23:46:34 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 00003574: 23:46:34 []:<-------------------------------------------------------------->
+Admin.exe: 00003574: 23:46:34 [Terminated]:Exit Code: 0

@@ -1,0 +1,25 @@
+Admin.exe: 00001EBC: 19:57:16 [127.0.0.1]:Failed Sequence Recovery: SeqId: 7, Event: keypress
+Admin.exe: 00001EBC: 19:57:16 [127.0.0.1]:Sequence sent from cache:  SeqId: 7
+Admin.exe: 00001EBC: 19:57:18 [127.0.0.1]:Processed: Id: 7, Evt: keypress, [aWarfwzPVe1036F259E]
+Admin.exe: 00003868: 21:35:53 [127.0.0.1]:Failed Sequence Recovery: SeqId: 24, Event: itemclick
+Admin.exe: 00003868: 21:35:56 [127.0.0.1]:Sequence sent from cache:  SeqId: 24
+Admin.exe: 00003868: 21:35:56 [127.0.0.1]:Processed: Id: 24, Evt: itemclick, [nT7jVOxrsx1036F406A]
+Admin.exe: 000008D0: 21:35:58 [127.0.0.1]:Failed Sequence Recovery: SeqId: 25, Event: selectionchange
+Admin.exe: 000008D0: 21:35:58 [127.0.0.1]:Sequence sent from cache:  SeqId: 25
+Admin.exe: 000008D0: 21:35:58 [127.0.0.1]:Processed: Id: 25, Evt: selectionchange, [nT7jVOxrsx1036F406A]
+Admin.exe: 00001660: 21:50:22 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: data
+Admin.exe: 00002F9C: 21:50:22 [127.0.0.1]:Failed Sequence Recovery: SeqId: 36, Event: headerclick
+Admin.exe: 00003DE8: 21:50:22 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: data
+Admin.exe: 00003E68: 21:50:22 [127.0.0.1]:Failed Sequence Recovery: SeqId: 36, Event: headerclick
+Admin.exe: 000009D4: 21:50:22 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: data
+Admin.exe: 00002F9C: 21:50:22 [127.0.0.1]:Sequence sent from cache:  SeqId: 36
+Admin.exe: 00002F9C: 21:50:24 [127.0.0.1]:Processed: Id: 36, Evt: headerclick, [YNseK2CVLx1036F43DE]
+Admin.exe: 00001660: 21:50:24 [127.0.0.1]:Processing: Id: 37, Evt: data
+Admin.exe: 00001660: 21:50:24 [127.0.0.1]:Processed: Id: 37, Evt: data, [YNseK2CVLx1036F43DE]
+Admin.exe: 00003DE8: 21:50:24 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 00003DE8: 21:50:24 [127.0.0.1]:Processed: Id: 37, Evt: data, [YNseK2CVLx1036F43DE]
+Admin.exe: 00003E68: 21:50:24 [127.0.0.1]:Sequence sent from cache:  SeqId: 36
+Admin.exe: 00003E68: 21:50:25 [127.0.0.1]:Processed: Id: 36, Evt: headerclick, [YNseK2CVLx1036F43DE]
+Admin.exe: 000009D4: 21:50:25 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 000009D4: 21:50:26 [127.0.0.1]:Processed: Id: 37, Evt: data, [YNseK2CVLx1036F43DE]
+Admin.exe: 00000E98: 21:50:26 [127.0.0.1]:Sequence sent from cache:  SeqId: 37

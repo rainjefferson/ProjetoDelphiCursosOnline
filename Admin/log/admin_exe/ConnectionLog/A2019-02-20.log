@@ -1,0 +1,3 @@
+Admin.exe: 00003ACC: 21:53:57 [127.0.0.1]:Failed Sequence Recovery: SeqId: 48, Event: click
+Admin.exe: 00003ACC: 21:53:57 [127.0.0.1]:Sequence sent from cache:  SeqId: 48
+Admin.exe: 00003ACC: 21:53:57 [127.0.0.1]:Processed: Id: 48, Evt: click, [cIm7HzstTf103618969]

@@ -1,0 +1,122 @@
+html{
+	background:#FFF;
+}
+
+.section-page{
+	position:absolute;
+	display:table;
+	top:0px;
+	left:0px;
+	min-width:100%;
+	height:100%;
+	padding:0px 0px 0px 0px;
+}
+
+.section-page .section-container{
+	position:relative;
+	display:flex;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+.section-page .section-container .container{
+	position:relative;
+	display:flex;
+	margin:0 auto;
+	max-width:1700px;
+	height:100%;
+}
+
+/* Login */
+
+.login-align{
+	position:relative;
+	display:flex;
+	margin:0 auto;
+	max-width:1700px;
+	height:100%; 
+}
+
+.login-align .login .header{
+	position:relative;
+	padding:10px 0px 60px 0px;
+}
+
+.login-align .login .header h2{
+	margin:0px;
+	padding:3px 0px;
+	font-size:19px;
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	color:#333;
+}
+
+.login-align .login .header h2 .logo{
+	height:50px;
+}
+
+.login-align .login{
+	position:relative;
+	margin:0 auto;
+	width:300px;
+	padding:10px 20px;
+	background:#FFF;
+} 
+
+.login-align .login .login-alerta{
+	position:relative;
+	padding:6px 0px ;
+}
+
+
+.login-align .login .login-alerta .alerta{
+	position:relative;
+	width:100%;
+	color:#f12632;
+	font-size:14px;
+	font-family:Arial;
+	display:none;
+}
+
+.login-align .login .form-align{
+	position:relative;
+	width:100%;
+	padding:4px 0px;
+}
+
+.login-align .login .submit-align{
+	padding:20px 0px 5px 0px;
+}
+
+.login-align .login .form-align input{
+	position:relative;
+	width:100%;
+	height:36px;
+	box-sizing:border-box;
+	padding:10px 15px;
+	border:1px solid rgba(0, 0, 0, 0.2);
+	border-radius:3px;
+	font-size:14px;
+	font-family:Verdana;
+	color:#666;
+}
+
+.login-align .login .login-btn{
+	position:relative;
+	width:100%;
+	height:auto;
+	box-sizing:border-box;
+	padding:7px 5px;
+	border:1px solid rgba(0, 0, 0, 0.5);
+	border-radius:3px;
+	box-shadow:0px 0px 0.3em 0px rgba(0, 0, 0, 0.1), -1px 10.5px 0.6em -2px rgba(0, 0, 0, 0.06);
+	background:#3f619a;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+	text-shadow:0.8px 0.5px rgba(0, 0, 0, 0.1);
+}

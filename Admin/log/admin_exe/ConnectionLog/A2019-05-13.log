@@ -1,0 +1,36 @@
+Admin.exe: 00002D20: 21:54:46 [127.0.0.1]:Failed Sequence Recovery: SeqId: 93, Event: click
+Admin.exe: 00002460: 21:56:41 [127.0.0.1]:Failed Sequence Recovery: SeqId: 93, Event: click
+Admin.exe: 00002D20: 21:56:41 [127.0.0.1]:Sequence sent from cache:  SeqId: 93
+Admin.exe: 00002D20: 21:56:41 [127.0.0.1]:Processed: Id: 93, Evt: click, [eGM7vwQItr103DE9E55]
+Admin.exe: 00002460: 21:56:41 [127.0.0.1]:Sequence sent from cache:  SeqId: 93
+Admin.exe: 00002460: 21:56:41 [127.0.0.1]:Processed: Id: 93, Evt: click, [eGM7vwQItr103DE9E55]
+Admin.exe: 00003C4C: 21:56:41 [127.0.0.1]:Failed Sequence Recovery: SeqId: 93, Event: click
+Admin.exe: 00001F10: 21:56:42 [127.0.0.1]:Failed Sequence Recovery: SeqId: 93, Event: click
+Admin.exe: 00003C4C: 21:56:42 [127.0.0.1]:Sequence sent from cache:  SeqId: 93
+Admin.exe: 00003C4C: 21:56:42 [127.0.0.1]:Processed: Id: 93, Evt: click, [eGM7vwQItr103DE9E55]
+Admin.exe: 00001F10: 21:56:42 [127.0.0.1]:Sequence sent from cache:  SeqId: 93
+Admin.exe: 00001F10: 21:56:42 [127.0.0.1]:Processed: Id: 93, Evt: click, [eGM7vwQItr103DE9E55]
+Admin.exe: 000044AC: 22:40:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 00002BF4: 22:44:40 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 00004784: 22:46:44 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 00004730: 22:50:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 00003AE0: 22:58:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 000047E8: 22:58:51 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 0000337C: 23:00:53 [127.0.0.1]:Failed Sequence Recovery: SeqId: 43, Event: click
+Admin.exe: 000041AC: 23:01:14 [127.0.0.1]:Failed Sequence Recovery: SeqId: 43, Event: click
+Admin.exe: 0000219C: 23:13:27 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 00002558: 23:14:34 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 00003660: 23:14:46 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 000023B0: 23:15:20 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 000023B0: 23:16:14 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 000023B0: 23:16:14 [127.0.0.1]:Processed: Id: 41, Evt: click, [qtJ6t2rLEA103DEBE6B]
+Admin.exe: 00003660: 23:16:14 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 00003660: 23:16:14 [127.0.0.1]:Processed: Id: 41, Evt: click, [qtJ6t2rLEA103DEBE6B]
+Admin.exe: 00002558: 23:16:14 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 00002558: 23:16:14 [127.0.0.1]:Processed: Id: 41, Evt: click, [qtJ6t2rLEA103DEBE6B]
+Admin.exe: 0000219C: 23:16:14 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 0000219C: 23:16:14 [127.0.0.1]:Processed: Id: 41, Evt: click, [qtJ6t2rLEA103DEBE6B]
+Admin.exe: 000020B4: 23:16:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 000020B4: 23:16:18 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 000020B4: 23:16:18 [127.0.0.1]:Processed: Id: 41, Evt: click, [qtJ6t2rLEA103DEBE6B]
+Admin.exe: 000022F8: 23:24:47 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click

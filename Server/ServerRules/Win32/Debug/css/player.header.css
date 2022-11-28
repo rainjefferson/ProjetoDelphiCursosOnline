@@ -1,0 +1,221 @@
+
+.section-header{
+	position:fixed;
+	z-index:1000;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:70px;
+}
+
+.section-header .header{
+	position:relative;
+	display: flex;
+	align-items: center;
+ 	white-space:nowrap;
+	margin:0 auto;
+	max-width:1700px;
+	height:50px;
+	padding:10px 0px;
+	border-bottom:1px solid rgba(0, 0, 0, 0);
+}
+
+.section-header .header-scroll{
+	position:fixed;
+	min-width:100%;
+	z-index:1000;
+	background:rgba(59, 59, 59, 0.95) !important;
+	border-bottom:1px solid rgba(0, 0, 0, 0.1);
+	box-shadow:0px 0px 0.3em 0px rgba(0, 0, 0, 0.1), -1px 10.5px 0.6em -2px rgba(0, 0, 0, 0.06);
+	transition: all 0.4s linear;
+}
+
+/* */
+.section-header .header .header-align{
+	display:inline-flex;
+	vertical-align:middle;
+}
+
+.section-header .header .menu-align{
+	width:6%;
+	box-sizing:border-box;
+	padding:0px 0px;
+}
+
+.section-header .header .menu-align .menu-icone{
+	padding:0px 5px;
+	max-width:30px;
+	height:20px;
+}
+
+.section-header .header .menu-align .menu-icone .icone{
+	height:20px;
+}
+
+.section-header .header .menu-align .menu{
+	position:fixed;
+	display:flex;
+	top:70px;
+	width:300px;
+	height:100%;
+	overflow-y:auto;
+	border-right:1px solid rgba(0, 0, 0, 0.2);
+	background:#FFF;
+	display:none;
+}
+
+.section-header .header .menu-align .menu li{
+	list-style:none;
+	display:block;
+	padding:5px 0px;
+}
+
+.section-header .header .menu-align .menu li a{
+	display:block;
+	padding:12px 23px;
+	box-sizing:border-box;
+	text-decoration:none;
+ 	font-size:16px;
+	font-family:Verdana;
+	color:#292929;
+}
+
+.section-header .header .menu-align .menu li a:hover{
+	background:#333;
+	color:#FFF;
+}
+
+.section-header .header .logo-align{
+	width:24%;
+}
+
+.section-header .header .logo-align .logo{
+	width:100%;
+}
+
+.section-header .header .logo-align .logo img{
+	height:40px;
+}
+
+.section-header .header .menu-top-align{
+	width:55%;
+}
+
+.section-header .header .menu-top-align .menu-top{
+	width:100%;
+	text-align:center;
+}
+
+.section-header .header .menu-top-align .menu-top li{
+	display:inline-block;
+	vertical-align:top;
+	list-style:none;
+	padding:0px 0px 0px 12px;
+}
+
+.section-header .header .menu-top-align .menu-top li a{
+	display:inline-block;
+	padding:10px 3px;
+	text-decoration:none;
+	color:#FFF;
+	font-size:20px;
+	font-family:Arial;
+	font-weight:600;
+}
+
+.section-header .header .menu-top-align .menu-top li a .icone{
+	padding:0px 5px;
+	max-width:30px;
+	height:20px;
+}
+
+.section-header .header .menu-top-align .menu-top li a .icone img{
+	margin:-2px 0px;
+	height:18px;
+}
+
+.section-header .header .user-menu-align{
+	position:relative;
+	width:25%;
+	box-sizing:border-box;
+	padding:0px 10px;
+}
+
+.section-header .header .user-menu-align .user-menu{
+	position:relative;
+	width:100%;
+	text-align:right; 
+}
+
+.section-header .header .user-menu-align .user-menu li{
+	position:relative;
+	list-style:none;
+	display:inline-block;
+	vertical-align:bottom;
+	padding:0px 0px 0px 10px;
+}
+
+.section-header .header .user-menu-align .user-menu li a{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.section-header .header .user-menu-align .user-menu li img{
+	display:inline-block;
+	vertical-align:bottom;
+	height:32px;
+}
+
+.section-header .header .user-menu-align .user-menu li .submenu{
+	position:absolute;
+	top:40px;
+	right:0px;
+	margin:0px 0px;
+	padding:5px 8px;
+	border:1px solid rgba(0, 0, 0, 0.1);
+	border-radius:3px;
+	background:#FFF;
+	box-shadow:0px 0px 1em 0px rgba(0, 0, 0, 0.2);
+	text-align:left;
+	display:none;
+}
+
+.section-header .header .user-menu-align .user-menu li .submenu:before{
+	position:absolute;
+	top:-10px;
+	right:5px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-bottom: 9px solid rgba(0, 0, 0, 0.1);
+}
+
+.section-header .header .user-menu-align .user-menu li .submenu:after{
+	position:absolute;
+	top:-8px;
+	right:6px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #FFF;
+}
+
+.section-header .header .user-menu-align .user-menu .submenu li{
+	position:relative;
+	display:block;
+	padding:2px 0px;
+}
+
+.section-header .header .user-menu-align .user-menu .submenu li a{
+	display:block;
+	padding:4px 3px;
+	box-sizing:border-box;
+	text-decoration:none;
+	font-size:14px;
+	font-family:Verdana;
+	color:#444;
+}

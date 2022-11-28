@@ -1,0 +1,25 @@
+Admin.exe: 00003370: 21:06:57 [127.0.0.1]:Failed Sequence Recovery: SeqId: 9, Event: keypress
+Admin.exe: 00001164: 21:06:57 [127.0.0.1]:Failed Sequence Recovery: SeqId: 10, Event: click
+Admin.exe: 000039E8: 21:06:58 [127.0.0.1]:Failed Sequence Recovery: SeqId: 10, Event: click
+Admin.exe: 00000B2C: 21:06:58 [127.0.0.1]:Failed Sequence Recovery: SeqId: 10, Event: click
+Admin.exe: 00001164: 21:06:58 [127.0.0.1]:Processing: Id: 10, Evt: click
+Admin.exe: 00003DD4: 21:06:58 [127.0.0.1]:Failed Sequence Recovery: SeqId: 10, Event: click
+Admin.exe: 000036BC: 21:06:58 [127.0.0.1]:Failed Sequence Recovery: SeqId: 9, Event: keypress
+Admin.exe: 00003FD0: 21:06:58 [127.0.0.1]:Failed Sequence Recovery: SeqId: 9, Event: keypress
+Admin.exe: 00003834: 21:06:58 [127.0.0.1]:Failed Sequence Recovery: SeqId: 9, Event: keypress
+Admin.exe: 00001164: 21:07:04 [127.0.0.1]:Processed: Id: 10, Evt: click, [MfTlYm5oXa1039CFEBD]
+Admin.exe: 000039E8: 21:07:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 10
+Admin.exe: 000039E8: 21:07:04 [127.0.0.1]:Processed: Id: 10, Evt: click, [MfTlYm5oXa1039CFEBD]
+Admin.exe: 000036BC: 21:07:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 9
+Admin.exe: 000036BC: 21:07:04 [127.0.0.1]:Processed: Id: 9, Evt: keypress, [MfTlYm5oXa1039CFEBD]
+Admin.exe: 00003DD4: 21:07:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 10
+Admin.exe: 00003DD4: 21:07:04 [127.0.0.1]:Processed: Id: 10, Evt: click, [MfTlYm5oXa1039CFEBD]
+Admin.exe: 00003834: 21:07:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 9
+Admin.exe: 00003834: 21:07:04 [127.0.0.1]:Processed: Id: 9, Evt: keypress, [MfTlYm5oXa1039CFEBD]
+Admin.exe: 00003370: 21:07:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 9
+Admin.exe: 00003370: 21:07:04 [127.0.0.1]:Processed: Id: 9, Evt: keypress, [MfTlYm5oXa1039CFEBD]
+Admin.exe: 00000B2C: 21:07:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 10
+Admin.exe: 00000B2C: 21:07:04 [127.0.0.1]:Processed: Id: 10, Evt: click, [MfTlYm5oXa1039CFEBD]
+Admin.exe: 00003FD0: 21:07:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 9
+Admin.exe: 00003FD0: 21:07:04 [127.0.0.1]:Processed: Id: 9, Evt: keypress, [MfTlYm5oXa1039CFEBD]
+Admin.exe: 00002EC0: 21:07:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 10

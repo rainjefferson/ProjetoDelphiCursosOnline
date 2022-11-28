@@ -1,0 +1,9 @@
+Admin.exe: 0000139C: 23:30:52 [127.0.0.1]:Failed Sequence Recovery: SeqId: 119, Event: click
+Admin.exe: 000034BC: 23:31:21 [127.0.0.1]:Failed Sequence Recovery: SeqId: 119, Event: click
+Admin.exe: 000039E4: 23:31:40 [127.0.0.1]:Failed Sequence Recovery: SeqId: 119, Event: click
+Admin.exe: 000034BC: 23:31:40 [127.0.0.1]:Sequence sent from cache:  SeqId: 119
+Admin.exe: 000034BC: 23:31:40 [127.0.0.1]:Processed: Id: 119, Evt: click, [PmenzWjYDR103970B31]
+Admin.exe: 0000139C: 23:31:40 [127.0.0.1]:Sequence sent from cache:  SeqId: 119
+Admin.exe: 0000139C: 23:31:40 [127.0.0.1]:Processed: Id: 119, Evt: click, [PmenzWjYDR103970B31]
+Admin.exe: 000039E4: 23:31:40 [127.0.0.1]:Sequence sent from cache:  SeqId: 119
+Admin.exe: 000039E4: 23:31:40 [127.0.0.1]:Processed: Id: 119, Evt: click, [PmenzWjYDR103970B31]

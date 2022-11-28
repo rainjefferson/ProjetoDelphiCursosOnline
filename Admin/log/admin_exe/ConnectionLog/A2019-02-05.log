@@ -1,0 +1,9 @@
+Admin.exe: 000033DC: 20:30:44 [127.0.0.1]:Failed Sequence Recovery: SeqId: 16, Event: itemclick
+Admin.exe: 000033DC: 20:30:44 [127.0.0.1]:Sequence sent from cache:  SeqId: 16
+Admin.exe: 000033DC: 20:30:44 [127.0.0.1]:Processed: Id: 16, Evt: itemclick, [GctnsIu3Mo1034A8FDA]
+Admin.exe: 00002874: 20:30:44 [127.0.0.1]:Failed Sequence Recovery: SeqId: 17, Event: selectionchange
+Admin.exe: 00002874: 20:30:44 [127.0.0.1]:Sequence sent from cache:  SeqId: 17
+Admin.exe: 00002874: 20:30:44 [127.0.0.1]:Processed: Id: 17, Evt: selectionchange, [GctnsIu3Mo1034A8FDA]
+Admin.exe: 000025C4: 20:41:52 [127.0.0.1]:Failed Sequence Recovery: SeqId: 42, Event: itemclick
+Admin.exe: 000025C4: 20:41:52 [127.0.0.1]:Sequence sent from cache:  SeqId: 42
+Admin.exe: 000025C4: 20:41:53 [127.0.0.1]:Processed: Id: 42, Evt: itemclick, [dZeuGFkvQW1034A9269]

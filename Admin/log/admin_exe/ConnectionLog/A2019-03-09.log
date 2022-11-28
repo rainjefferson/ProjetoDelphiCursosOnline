@@ -1,0 +1,6 @@
+Admin.exe: 00003E14: 16:52:20 [127.0.0.1]:Failed Sequence Recovery: SeqId: 46, Event: beforeclose
+Admin.exe: 00003E14: 16:52:23 [127.0.0.1]:Sequence sent from cache:  SeqId: 46
+Admin.exe: 00003E14: 16:52:23 [127.0.0.1]:Processed: Id: 46, Evt: beforeclose, [HXLzCuQ3421037B2847]
+Admin.exe: 00003998: 18:50:12 [127.0.0.1]:Failed Sequence Recovery: SeqId: 79, Event: click
+Admin.exe: 00003998: 18:50:14 [127.0.0.1]:Sequence sent from cache:  SeqId: 79
+Admin.exe: 00003998: 18:50:14 [127.0.0.1]:Processed: Id: 79, Evt: click, [eMWPTCFRCB1037B4776]

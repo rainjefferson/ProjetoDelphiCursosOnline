@@ -1,0 +1,9 @@
+Admin.exe: 00002820: 19:51:05 []:>--------------------------------------------------------------<
+Admin.exe: 00002820: 19:51:05 [TUniServerModule]:Server First Init.
+Admin.exe: 00002820: 19:51:05 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002820: 19:51:06 [TUniServerModule]:Global Cache Folder Erased. <50> Files deleted.
+Admin.exe: 00002820: 19:51:06 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002820: 19:51:06 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003688: 19:51:29 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002820: 20:09:11 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 00002820: 20:09:11 [TUniServerModule]:Stopping HTTP Server.

@@ -1,0 +1,162 @@
+Admin.exe: 0000268C: 20:17:10 []:>--------------------------------------------------------------<
+Admin.exe: 0000268C: 20:17:10 [TUniServerModule]:Server First Init.
+Admin.exe: 0000268C: 20:17:10 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 0000268C: 20:17:12 [TUniServerModule]:Global Cache Folder Erased. <38> Files deleted.
+Admin.exe: 0000268C: 20:17:12 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 0000268C: 20:17:12 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000291C: 20:18:19 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002C24: 20:18:42 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002AB4: 20:19:38 []:>--------------------------------------------------------------<
+Admin.exe: 00002AB4: 20:19:38 [TUniServerModule]:Server First Init.
+Admin.exe: 00002AB4: 20:19:38 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002AB4: 20:19:39 [TUniServerModule]:Global Cache Folder Erased. <39> Files deleted.
+Admin.exe: 00002AB4: 20:19:39 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002AB4: 20:19:39 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00000B04: 20:19:47 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 000037A4: 20:19:52 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 000029A0: 20:20:35 []:>--------------------------------------------------------------<
+Admin.exe: 000029A0: 20:20:35 [TUniServerModule]:Server First Init.
+Admin.exe: 000029A0: 20:20:35 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000029A0: 20:20:36 [TUniServerModule]:Global Cache Folder Erased. <38> Files deleted.
+Admin.exe: 000029A0: 20:20:36 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000029A0: 20:20:36 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00001F10: 20:34:55 []:>--------------------------------------------------------------<
+Admin.exe: 00001F10: 20:34:55 [TUniServerModule]:Server First Init.
+Admin.exe: 00001F10: 20:34:55 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00001F10: 20:34:56 [TUniServerModule]:Global Cache Folder Erased. <55> Files deleted.
+Admin.exe: 00001F10: 20:34:56 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001F10: 20:34:56 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002E8C: 20:47:29 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 000026B8: 20:47:36 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00003944: 20:50:17 []:>--------------------------------------------------------------<
+Admin.exe: 00003944: 20:50:17 [TUniServerModule]:Server First Init.
+Admin.exe: 00003944: 20:50:17 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003944: 20:50:18 [TUniServerModule]:Global Cache Folder Erased. <58> Files deleted.
+Admin.exe: 00003944: 20:50:18 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003944: 20:50:18 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002F18: 20:50:26 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002C20: 20:52:47 []:>--------------------------------------------------------------<
+Admin.exe: 00002C20: 20:52:47 [TUniServerModule]:Server First Init.
+Admin.exe: 00002C20: 20:52:47 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002C20: 20:52:49 [TUniServerModule]:Global Cache Folder Erased. <49> Files deleted.
+Admin.exe: 00002C20: 20:52:49 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002C20: 20:52:49 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003A58: 20:53:05 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 0000279C: 21:04:01 []:>--------------------------------------------------------------<
+Admin.exe: 0000279C: 21:04:01 [TUniServerModule]:Server First Init.
+Admin.exe: 0000279C: 21:04:01 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 0000279C: 21:04:03 [TUniServerModule]:Global Cache Folder Erased. <50> Files deleted.
+Admin.exe: 0000279C: 21:04:03 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 0000279C: 21:04:03 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000038C4: 21:04:05 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00001730: 21:04:06 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 0000303C: 21:04:17 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 000034AC: 21:19:41 []:>--------------------------------------------------------------<
+Admin.exe: 000034AC: 21:19:41 [TUniServerModule]:Server First Init.
+Admin.exe: 000034AC: 21:19:41 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000034AC: 21:19:42 [TUniServerModule]:Global Cache Folder Erased. <55> Files deleted.
+Admin.exe: 000034AC: 21:19:42 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000034AC: 21:19:42 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00000078: 21:20:02 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00003968: 21:20:07 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002610: 21:26:53 []:>--------------------------------------------------------------<
+Admin.exe: 00002610: 21:26:53 [TUniServerModule]:Server First Init.
+Admin.exe: 00002610: 21:26:53 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002610: 21:26:54 [TUniServerModule]:Global Cache Folder Erased. <49> Files deleted.
+Admin.exe: 00002610: 21:26:55 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002610: 21:26:55 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000374C: 21:27:14 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00000780: 21:27:19 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00003674: 21:32:04 []:>--------------------------------------------------------------<
+Admin.exe: 00003674: 21:32:04 [TUniServerModule]:Server First Init.
+Admin.exe: 00003674: 21:32:04 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003674: 21:32:05 [TUniServerModule]:Global Cache Folder Erased. <41> Files deleted.
+Admin.exe: 00003674: 21:32:05 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003674: 21:32:05 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002A1C: 21:32:12 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00002EA8: 21:32:19 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 000016D0: 22:02:02 []:>--------------------------------------------------------------<
+Admin.exe: 000016D0: 22:02:02 [TUniServerModule]:Server First Init.
+Admin.exe: 000016D0: 22:02:02 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000016D0: 22:02:03 [TUniServerModule]:Global Cache Folder Erased. <51> Files deleted.
+Admin.exe: 000016D0: 22:02:03 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000016D0: 22:02:03 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00000AAC: 22:02:16 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00003BCC: 22:02:22 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002BC4: 22:21:18 []:>--------------------------------------------------------------<
+Admin.exe: 00002BC4: 22:21:18 [TUniServerModule]:Server First Init.
+Admin.exe: 00002BC4: 22:21:18 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002BC4: 22:21:19 [TUniServerModule]:Global Cache Folder Erased. <51> Files deleted.
+Admin.exe: 00002BC4: 22:21:20 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002BC4: 22:21:20 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002970: 22:21:33 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00003550: 22:21:39 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 0000057C: 22:23:32 []:>--------------------------------------------------------------<
+Admin.exe: 0000057C: 22:23:32 [TUniServerModule]:Server First Init.
+Admin.exe: 0000057C: 22:23:32 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 0000057C: 22:23:33 [TUniServerModule]:Global Cache Folder Erased. <42> Files deleted.
+Admin.exe: 0000057C: 22:23:33 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 0000057C: 22:23:33 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003448: 22:23:47 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00000648: 22:23:53 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00003FC0: 22:27:45 []:>--------------------------------------------------------------<
+Admin.exe: 00003FC0: 22:27:45 [TUniServerModule]:Server First Init.
+Admin.exe: 00003FC0: 22:27:45 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003FC0: 22:27:46 [TUniServerModule]:Global Cache Folder Erased. <42> Files deleted.
+Admin.exe: 00003FC0: 22:27:46 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003FC0: 22:27:46 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00000D88: 22:28:19 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00003B7C: 22:28:25 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 000030B0: 22:42:27 []:>--------------------------------------------------------------<
+Admin.exe: 000030B0: 22:42:27 [TUniServerModule]:Server First Init.
+Admin.exe: 000030B0: 22:42:27 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000030B0: 22:42:28 [TUniServerModule]:Global Cache Folder Erased. <46> Files deleted.
+Admin.exe: 000030B0: 22:42:29 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000030B0: 22:42:29 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000246C: 22:42:40 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00000CF0: 22:43:13 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00003BCC: 22:43:19 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002F44: 22:45:33 []:>--------------------------------------------------------------<
+Admin.exe: 00002F44: 22:45:33 [TUniServerModule]:Server First Init.
+Admin.exe: 00002F44: 22:45:33 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002F44: 22:45:35 [TUniServerModule]:Global Cache Folder Erased. <47> Files deleted.
+Admin.exe: 00002F44: 22:45:35 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002F44: 22:45:35 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003904: 22:45:49 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 0000382C: 22:46:54 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00000588: 23:00:13 []:>--------------------------------------------------------------<
+Admin.exe: 00000588: 23:00:14 [TUniServerModule]:Server First Init.
+Admin.exe: 00000588: 23:00:14 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00000588: 23:00:15 [TUniServerModule]:Global Cache Folder Erased. <46> Files deleted.
+Admin.exe: 00000588: 23:00:15 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00000588: 23:00:15 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000021FC: 23:00:17 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 000035A8: 23:00:17 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00003FCC: 23:00:17 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 000022DC: 23:00:51 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00003FEC: 23:05:24 []:>--------------------------------------------------------------<
+Admin.exe: 00003FEC: 23:05:24 [TUniServerModule]:Server First Init.
+Admin.exe: 00003FEC: 23:05:24 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003FEC: 23:05:25 [TUniServerModule]:Global Cache Folder Erased. <53> Files deleted.
+Admin.exe: 00003FEC: 23:05:25 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003FEC: 23:05:25 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003CB0: 23:05:36 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 0000301C: 23:05:41 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00003174: 23:06:19 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00002E70: 23:27:13 []:>--------------------------------------------------------------<
+Admin.exe: 00002E70: 23:27:13 [TUniServerModule]:Server First Init.
+Admin.exe: 00002E70: 23:27:13 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002E70: 23:27:15 [TUniServerModule]:Global Cache Folder Erased. <60> Files deleted.
+Admin.exe: 00002E70: 23:27:15 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002E70: 23:27:15 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00000320: 23:27:53 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00003840: 23:28:02 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 00003574: 23:28:12 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 0000347C: 23:30:03 []:>--------------------------------------------------------------<
+Admin.exe: 0000347C: 23:30:03 [TUniServerModule]:Server First Init.
+Admin.exe: 0000347C: 23:30:03 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 0000347C: 23:30:04 [TUniServerModule]:Global Cache Folder Erased. <46> Files deleted.
+Admin.exe: 0000347C: 23:30:04 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 0000347C: 23:30:04 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003DA4: 23:30:16 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA08B
+Admin.exe: 000023C8: 23:30:23 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico

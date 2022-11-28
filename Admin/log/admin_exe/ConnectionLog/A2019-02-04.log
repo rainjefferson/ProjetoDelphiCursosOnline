@@ -1,0 +1,3 @@
+Admin.exe: 00003A60: 23:29:51 [127.0.0.1]:Failed Sequence Recovery: SeqId: 12, Event: CadastroCursos
+Admin.exe: 00003A60: 23:29:51 [127.0.0.1]:Sequence sent from cache:  SeqId: 12
+Admin.exe: 00003A60: 23:29:51 [127.0.0.1]:Processed: Id: 12, Evt: CadastroCursos, [W7ifa2oHeb1034939C3]

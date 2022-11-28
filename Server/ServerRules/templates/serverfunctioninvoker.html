@@ -1,0 +1,186 @@
+<!-- !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+<html>
+<head>
+<title>ENTRAR</title>
+
+<!--<link rel="stylesheet" type="text/css" href="css/serverfunctioninvoker.css" />-->
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+<script type="text/javascript" src="js/connection.js"></script>
+<script type="text/javascript" src="<#serverfunctionsjs>"></script>
+<script type="text/javascript" src="js/serverfunctioninvoker.js"></script>
+
+<!------ Estilo do login ---------->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ FIM ---------->
+
+<script>
+var
+  loginRequired;
+
+function onLoad()
+{
+  loginRequired = <#loginRequired>;
+  //setConnection('<#host>', '<#port>', '<#urlpath>');
+  setConnection('<#host>', '<#port>', '<#urlpath>');
+
+  if (loginRequired)
+  {
+    showLogin(true);
+  }
+  else
+  {
+    if (setCredentials('', ''))
+      createClassTree();
+    else
+      alert('Connection error');
+  }
+}
+
+function showLogin(show)
+{
+  var loginDiv = document.getElementById('logindiv');
+  if (show)
+  {
+      loginDiv.style.display="block";
+  }
+  else
+  {
+      loginDiv.style.display="none";
+  }
+}
+
+function onLogin()
+{
+  if (loginRequired)
+  {
+    if (AdminInst == null)
+    {
+        if (setCredentials(document.getElementById('userField').value, document.getElementById('passwrdField').value))
+        {
+          var contentDiv = document.getElementById('contentdiv');
+          contentDiv.innerHTML = "Entrada efetuada com sucesso!";
+
+          //createClassTree();
+          loginCorrect(true);
+        }
+        else
+          loginCorrect(false);
+    }
+  }
+}
+
+function loginCorrect(isCorrect)
+{
+  var errorDiv = document.getElementById('loginError');
+
+  if ( errorDiv != null )
+  {
+    errorDiv.innerHTML = isCorrect ? "" : "Falha no login!";
+  }
+}
+</script>
+
+</head>
+<body onload="onLoad()">
+
+<section class="login-block" style="margin-top: 50px;">
+<div class="container">
+<div class="row">
+
+<!--
+<div id="maincontent">
+<div id="contentdiv">
+<div id="logindiv" class="logindiv" style="display:none">
+-->
+
+  <!--- Inicio Login -->
+  <div class="col-md-4 login-sec">
+
+       <h2 class="text-center">Entre com a sua conta</h2>
+
+       <form class="login-form" onsubmit="onLogin(); return false;">
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="text-uppercase">Usuário:</label>
+          <input id="userField" type="text" class="form-control" placeholder="">
+
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1" class="text-uppercase">Senha:</label>
+          <input id="passwrdField" type="password" class="form-control" placeholder="">
+        </div>
+
+
+        <div class="form-check">
+          <div id="loginError" class="errorMsg"></div>
+          <button id="loginButton" type="submit" class="btn btn-login float-right">ENTRAR</button>
+        </div>
+
+      </form>
+
+    </div>
+  <!-- Fim Login -->
+
+  <!--
+  <form onsubmit="onLogin(); return false;">
+    <table class="authtable">
+      <tr><td>Usuário:</td><td><input id="userField" class="loginField" type="text" /></td></tr>
+      <tr><td>Senha:</td><td><input id="passwrdField" class="loginField" type="password" /></td></tr>
+    </table>
+    <div id="loginError" class="errorMsg"></div>
+    <br />
+    <input id="loginButton" type="submit" value="ENTRAR" />
+  </form>
+  -->
+
+<!--
+</div>
+</div>
+</div>
+-->
+
+<!------ Carrocel ---------->
+<div class="col-md-8 banner-sec">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+       <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="images/Slide2017.png" alt="Primeiro slide">
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="images/Slide_2.jpg" alt="Sergundo slide">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="images/Slide_3.jpg" alt="Terceiro slide">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<!------ Fim Carrocel ---------->
+
+</div>
+</div>
+</section>
+
+</body>
+</html>

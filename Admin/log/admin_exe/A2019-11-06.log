@@ -1,0 +1,7 @@
+Admin.exe: 00001068: 20:24:36 []:>--------------------------------------------------------------<
+Admin.exe: 00001068: 20:24:37 [TUniServerModule]:Server First Init.
+Admin.exe: 00001068: 20:24:37 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00001068: 20:24:39 [TUniServerModule]:Global Cache Folder Erased. <32> Files deleted.
+Admin.exe: 00001068: 20:24:39 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001068: 20:24:40 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000035F8: 20:25:03 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projetos Workana\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico

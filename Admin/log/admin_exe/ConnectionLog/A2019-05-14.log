@@ -1,0 +1,28 @@
+Admin.exe: 00003550: 22:02:05 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 000035A4: 22:02:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 00004008: 22:03:05 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: click
+Admin.exe: 000034F0: 22:07:50 [127.0.0.1]:Failed Sequence Recovery: SeqId: 40, Event: click
+Admin.exe: 00003F68: 22:08:25 [127.0.0.1]:Failed Sequence Recovery: SeqId: 40, Event: click
+Admin.exe: 00003874: 22:09:00 [127.0.0.1]:Failed Sequence Recovery: SeqId: 40, Event: click
+Admin.exe: 00001EF0: 22:09:35 [127.0.0.1]:Failed Sequence Recovery: SeqId: 40, Event: click
+Admin.exe: 00001EF0: 22:10:47 [127.0.0.1]:Sequence sent from cache:  SeqId: 40
+Admin.exe: 00001EF0: 22:10:47 [127.0.0.1]:Processed: Id: 40, Evt: click, [XjgfyXGmKH103E03330]
+Admin.exe: 00003874: 22:10:47 [127.0.0.1]:Sequence sent from cache:  SeqId: 40
+Admin.exe: 00003874: 22:10:47 [127.0.0.1]:Processed: Id: 40, Evt: click, [XjgfyXGmKH103E03330]
+Admin.exe: 00003F68: 22:10:47 [127.0.0.1]:Sequence sent from cache:  SeqId: 40
+Admin.exe: 00003F68: 22:10:47 [127.0.0.1]:Processed: Id: 40, Evt: click, [XjgfyXGmKH103E03330]
+Admin.exe: 000034F0: 22:10:47 [127.0.0.1]:Sequence sent from cache:  SeqId: 40
+Admin.exe: 000034F0: 22:10:47 [127.0.0.1]:Processed: Id: 40, Evt: click, [XjgfyXGmKH103E03330]
+Admin.exe: 00004678: 22:10:50 [127.0.0.1]:Failed Sequence Recovery: SeqId: 40, Event: click
+Admin.exe: 00004678: 22:10:50 [127.0.0.1]:Sequence sent from cache:  SeqId: 40
+Admin.exe: 00004678: 22:10:50 [127.0.0.1]:Processed: Id: 40, Evt: click, [XjgfyXGmKH103E03330]
+Admin.exe: 00001D58: 23:00:14 [127.0.0.1]:Sequence Error Timeout : TDiff:15531, Event: activate, Expected: 47, Received: 48, [UhOhhOgmPI103E0413D]
+Admin.exe: 00001D58: 23:00:14 [127.0.0.1]:Failed Sequence Reset to: 47
+Admin.exe: 00004658: 23:00:17 [127.0.0.1]:Sequence Error Timeout : TDiff:10031, Event: _dummy_, Expected: 48, Received: 49, [UhOhhOgmPI103E0413D]
+Admin.exe: 00004658: 23:00:17 [127.0.0.1]:Failed Sequence Reset to: 48
+Admin.exe: 00004AA8: 23:00:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 48, Event: activate
+Admin.exe: 00004AA8: 23:00:18 [127.0.0.1]:Processing: Id: 48, Evt: activate
+Admin.exe: 00000D24: 23:00:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 49, Event: _dummy_
+Admin.exe: 00004AA8: 23:00:18 [127.0.0.1]:Processed: Id: 48, Evt: activate, [UhOhhOgmPI103E0413D]
+Admin.exe: 00000D24: 23:00:18 [127.0.0.1]:Processing: Id: 49, Evt: _dummy_
+Admin.exe: 00000D24: 23:00:18 [127.0.0.1]:Processed: Id: 49, Evt: _dummy_, [UhOhhOgmPI103E0413D]

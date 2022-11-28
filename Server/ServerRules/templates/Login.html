@@ -1,0 +1,129 @@
+<!DOCTYPE>
+
+<html>
+  <head>
+    <title>Login</title>
+
+    <script type="text/javascript" src="js/base64.js"></script>
+    <script type="text/javascript" src="js/json2.js"></script>
+    <script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+    <script type="text/javascript" src="js/connection.js"></script>
+    <script type="text/javascript" src="<#serverfunctionsjs>"></script>
+    <script type="text/javascript" src="js/serverfunctioninvoker.js"></script>
+
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="css/login.style.css" />
+	<link rel="stylesheet" href="css/login.mobile.css" />
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<script type="text/javascript">
+
+    function onLoad()
+    {
+      setConnection('<#host>', '<#port>', '<#urlpath>');
+    }
+
+    function serverMethods()
+    {
+      return new <#classname>(connectionInfo);
+    }
+
+    function onLogin()
+    {
+
+      if (AdminInst == null)
+        {
+            var Logado = setCredentials(document.getElementById('userField').value, document.getElementById('passwrdField').value);
+
+            if (Logado)
+            {
+              var objJson = serverMethods().UrlTelaUserPlayer();
+              window.location.href = objJson.result;
+            }
+            else
+            {
+              loginCorrect(false);
+            }
+        }
+    }
+
+     function loginCorrect(isCorrect)
+    {
+      var errorDiv = document.getElementById('loginError');
+
+      if ( errorDiv != null )
+      {
+
+        if (isCorrect)
+        {
+
+           errorDiv.innerHTML= "";
+
+        } else
+        {
+
+          errorDiv.innerHTML = isCorrect ? "" : "Entrada incorreta!";
+        }
+
+      }
+    }
+</script>
+</head>
+
+
+<body onload="onLoad()">
+
+
+  <div class="section-page">
+			 <div class="section-container">
+				<div class="container">
+
+					<div class="login-align">
+						<div class="login">
+
+							<div class="header">
+								<h2> <img src="images/logo.png" class="logo" /> </h2>
+								<h2> Entrar na academia </h2>
+							</div>
+
+							<div class="login-alerta">
+								<div class="alerta"></div>
+							</div>
+
+							<form onsubmit="onLogin(); return false;" id="login-form">
+								<div class="form-align">
+									<input type="text" id="userField" name="userField" placeholder="E-mail"/>
+								</div>
+								<div class="form-align">
+									<input type="password" id="passwrdField" name="passwrdField" placeholder="Senha"/>
+								</div>
+
+								<div class="submit-align">
+                                    <input id="loginButton" type="submit" class="login-btn" value="Entrar" />
+								</div>
+                                <br />
+                                <div id="loginError" class="errorMsg" style="color: red;"></div>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			 </div>
+		</div>
+
+ <!--
+  <form onsubmit="onLogin(); return false;">
+    <table class="authtable">
+      <tr><td>Usuário:</td><td><input id="userField" class="loginField" type="text" /></td></tr>
+      <tr><td>Senha:</td><td><input id="passwrdField" class="loginField" type="password" /></td></tr>
+    </table>
+    <div id="loginError" class="errorMsg" style="color: red;"></div>
+    <br />
+    <input id="loginButton" type="submit" value="ENTRAR" />
+  </form>
+ -->
+
+</body>
+</html>
+

@@ -1,0 +1,90 @@
+Admin.exe: 00000C18: 21:25:00 [127.0.0.1]:Failed Sequence Recovery: SeqId: 102, Event: click
+Admin.exe: 00000C18: 21:25:00 [127.0.0.1]:Sequence sent from cache:  SeqId: 102
+Admin.exe: 00000C18: 21:25:00 [127.0.0.1]:Processed: Id: 102, Evt: click, [6M2n5yFVq31039E8A12]
+Admin.exe: 000030B0: 21:27:04 [127.0.0.1]:Failed Sequence Recovery: SeqId: 151, Event: actionclick
+Admin.exe: 000030B0: 21:27:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 151
+Admin.exe: 000030B0: 21:27:04 [127.0.0.1]:Processed: Id: 151, Evt: actionclick, [6M2n5yFVq31039E8A12]
+Admin.exe: 00003B58: 21:39:55 [127.0.0.1]:Failed Sequence Recovery: SeqId: 105, Event: click
+Admin.exe: 00003B58: 21:39:55 [127.0.0.1]:Sequence sent from cache:  SeqId: 105
+Admin.exe: 00003B58: 21:39:55 [127.0.0.1]:Processed: Id: 105, Evt: click, [T6H4yxinni1039E8E76]
+Admin.exe: 00002368: 22:06:08 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: cellclick
+Admin.exe: 0000281C: 22:06:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: cellclick
+Admin.exe: 0000094C: 22:06:52 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: cellclick
+Admin.exe: 00002DE0: 22:07:28 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: cellclick
+Admin.exe: 0000281C: 22:08:43 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 0000281C: 22:08:43 [127.0.0.1]:Processed: Id: 41, Evt: cellclick, [SU3ZFKSQ321039E95DF]
+Admin.exe: 00002DE0: 22:08:43 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 00002DE0: 22:08:43 [127.0.0.1]:Processed: Id: 41, Evt: cellclick, [SU3ZFKSQ321039E95DF]
+Admin.exe: 0000094C: 22:08:43 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 0000094C: 22:08:43 [127.0.0.1]:Processed: Id: 41, Evt: cellclick, [SU3ZFKSQ321039E95DF]
+Admin.exe: 00002368: 22:08:43 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 00002368: 22:08:43 [127.0.0.1]:Processed: Id: 41, Evt: cellclick, [SU3ZFKSQ321039E95DF]
+Admin.exe: 00003148: 22:08:45 [127.0.0.1]:Failed Sequence Recovery: SeqId: 41, Event: cellclick
+Admin.exe: 00003148: 22:08:45 [127.0.0.1]:Sequence sent from cache:  SeqId: 41
+Admin.exe: 00003148: 22:08:45 [127.0.0.1]:Processed: Id: 41, Evt: cellclick, [SU3ZFKSQ321039E95DF]
+Admin.exe: 00001250: 22:11:31 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 0000224C: 22:11:56 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 0000206C: 22:15:12 [127.0.0.1]:Failed Sequence Recovery: SeqId: 39, Event: cellclick
+Admin.exe: 00003294: 22:15:47 [127.0.0.1]:Failed Sequence Recovery: SeqId: 39, Event: cellclick
+Admin.exe: 00002D18: 22:16:22 [127.0.0.1]:Failed Sequence Recovery: SeqId: 39, Event: cellclick
+Admin.exe: 00002D18: 22:16:39 [127.0.0.1]:Sequence sent from cache:  SeqId: 39
+Admin.exe: 00002D18: 22:16:39 [127.0.0.1]:Processed: Id: 39, Evt: cellclick, [lTgiT6fyrd1039E9861]
+Admin.exe: 00003294: 22:16:39 [127.0.0.1]:Sequence sent from cache:  SeqId: 39
+Admin.exe: 00003294: 22:16:39 [127.0.0.1]:Processed: Id: 39, Evt: cellclick, [lTgiT6fyrd1039E9861]
+Admin.exe: 0000206C: 22:16:39 [127.0.0.1]:Sequence sent from cache:  SeqId: 39
+Admin.exe: 0000206C: 22:16:39 [127.0.0.1]:Processed: Id: 39, Evt: cellclick, [lTgiT6fyrd1039E9861]
+Admin.exe: 0000197C: 22:20:13 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 00000744: 22:23:41 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 00003354: 22:24:15 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 00001CA4: 22:24:50 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 000037B0: 22:27:41 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 000037B0: 22:27:41 [127.0.0.1]:Sequence sent from cache:  SeqId: 31
+Admin.exe: 000037B0: 22:27:41 [127.0.0.1]:Processed: Id: 31, Evt: cellclick, [6JzwilUHg21039E9AB2]
+Admin.exe: 00001CA4: 22:27:41 [127.0.0.1]:Sequence sent from cache:  SeqId: 31
+Admin.exe: 00001CA4: 22:27:41 [127.0.0.1]:Processed: Id: 31, Evt: cellclick, [6JzwilUHg21039E9AB2]
+Admin.exe: 00003354: 22:27:41 [127.0.0.1]:Sequence sent from cache:  SeqId: 31
+Admin.exe: 00003354: 22:27:41 [127.0.0.1]:Processed: Id: 31, Evt: cellclick, [6JzwilUHg21039E9AB2]
+Admin.exe: 00000744: 22:27:41 [127.0.0.1]:Sequence sent from cache:  SeqId: 31
+Admin.exe: 00000744: 22:27:41 [127.0.0.1]:Processed: Id: 31, Evt: cellclick, [6JzwilUHg21039E9AB2]
+Admin.exe: 0000324C: 22:27:45 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 0000324C: 22:27:45 [127.0.0.1]:Sequence sent from cache:  SeqId: 31
+Admin.exe: 0000324C: 22:27:45 [127.0.0.1]:Processed: Id: 31, Evt: cellclick, [6JzwilUHg21039E9AB2]
+Admin.exe: 00001E6C: 22:28:26 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 00001E6C: 22:33:59 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 00001E6C: 22:33:59 [127.0.0.1]:Processed: Id: 37, Evt: click, [6JzwilUHg21039E9AB2]
+Admin.exe: 00003868: 22:33:59 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 00003868: 22:33:59 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 00003868: 22:33:59 [127.0.0.1]:Processed: Id: 37, Evt: click, [6JzwilUHg21039E9AB2]
+Admin.exe: 00002E08: 22:34:00 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 00002E08: 22:34:00 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 00002E08: 22:34:00 [127.0.0.1]:Processed: Id: 37, Evt: click, [6JzwilUHg21039E9AB2]
+Admin.exe: 00003734: 22:34:00 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 00003734: 22:34:00 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 00003734: 22:34:00 [127.0.0.1]:Processed: Id: 37, Evt: click, [6JzwilUHg21039E9AB2]
+Admin.exe: 000023AC: 22:34:01 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 0000334C: 22:34:01 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 000037BC: 22:34:01 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 000023AC: 22:34:01 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 000037C0: 22:34:01 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 000023AC: 22:34:01 [127.0.0.1]:Processed: Id: 37, Evt: click, [6JzwilUHg21039E9AB2]
+Admin.exe: 0000334C: 22:34:01 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 0000334C: 22:34:01 [127.0.0.1]:Processed: Id: 37, Evt: click, [6JzwilUHg21039E9AB2]
+Admin.exe: 0000134C: 22:34:01 [127.0.0.1]:Failed Sequence Recovery: SeqId: 37, Event: click
+Admin.exe: 000037BC: 22:34:01 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 000037BC: 22:34:01 [127.0.0.1]:Processed: Id: 37, Evt: click, [6JzwilUHg21039E9AB2]
+Admin.exe: 000037C0: 22:34:01 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 000037C0: 22:34:01 [127.0.0.1]:Processed: Id: 37, Evt: click, [6JzwilUHg21039E9AB2]
+Admin.exe: 0000134C: 22:34:01 [127.0.0.1]:Sequence sent from cache:  SeqId: 37
+Admin.exe: 0000134C: 22:34:01 [127.0.0.1]:Processed: Id: 37, Evt: click, [6JzwilUHg21039E9AB2]
+Admin.exe: 00002CF4: 22:39:35 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 00002CF4: 22:40:04 [127.0.0.1]:Sequence sent from cache:  SeqId: 31
+Admin.exe: 00002CF4: 22:40:04 [127.0.0.1]:Processed: Id: 31, Evt: cellclick, [EoxT6csLvf1039E9F1A]
+Admin.exe: 00001B1C: 22:43:33 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 00001B1C: 22:44:03 [127.0.0.1]:Sequence sent from cache:  SeqId: 31
+Admin.exe: 00001B1C: 22:44:03 [127.0.0.1]:Processed: Id: 31, Evt: cellclick, [VUYWKHdbtw1039EA01A]
+Admin.exe: 00001698: 22:44:08 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 00001698: 22:44:08 [127.0.0.1]:Sequence sent from cache:  SeqId: 31
+Admin.exe: 00001698: 22:44:08 [127.0.0.1]:Processed: Id: 31, Evt: cellclick, [VUYWKHdbtw1039EA01A]
+Admin.exe: 00002634: 22:51:14 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 00002F74: 22:53:33 [127.0.0.1]:Failed Sequence Recovery: SeqId: 31, Event: cellclick
+Admin.exe: 000038C8: 22:53:43 [127.0.0.1]:Failed Sequence Recovery: SeqId: 32, Event: click

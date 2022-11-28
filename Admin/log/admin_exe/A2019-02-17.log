@@ -1,0 +1,37 @@
+Admin.exe: 00002410: 20:36:37 []:>--------------------------------------------------------------<
+Admin.exe: 00002410: 20:36:37 [TUniServerModule]:Server First Init.
+Admin.exe: 00002410: 20:36:40 [TUniServerModule]:Global Cache Folder Erased. <55> Files deleted.
+Admin.exe: 00002410: 20:36:40 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002410: 20:36:40 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002584: 20:45:51 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 00003774: 20:49:22 []:>--------------------------------------------------------------<
+Admin.exe: 00003774: 20:49:22 [TUniServerModule]:Server First Init.
+Admin.exe: 00003774: 20:49:24 [TUniServerModule]:Global Cache Folder Erased. <36> Files deleted.
+Admin.exe: 00003774: 20:49:24 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003774: 20:49:24 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000032C4: 20:52:05 []:>--------------------------------------------------------------<
+Admin.exe: 000032C4: 20:52:05 [TUniServerModule]:Server First Init.
+Admin.exe: 000032C4: 20:52:06 [TUniServerModule]:Global Cache Folder Erased. <34> Files deleted.
+Admin.exe: 000032C4: 20:52:06 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000032C4: 20:52:06 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000206C: 20:52:30 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 0000206C: 20:52:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002844: 20:52:55 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 0000220C: 20:53:07 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 00002FE0: 20:53:19 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 00002E5C: 20:53:39 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 0000082C: 20:53:46 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 00002E5C: 20:54:03 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 000022D8: 20:54:08 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 00002E5C: 20:54:18 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $008775A6
+Admin.exe: 000032C4: 20:54:40 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 000032C4: 20:54:40 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 000032C4: 20:54:41 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 000032C4: 20:54:41 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 000032C4: 20:54:41 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 000032C4: 20:54:41 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 000032C4: 20:54:41 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 000032C4: 20:54:41 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 000032C4: 20:54:41 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 000032C4: 20:54:41 []:<-------------------------------------------------------------->
+Admin.exe: 000032C4: 20:54:41 [Terminated]:Exit Code: 0

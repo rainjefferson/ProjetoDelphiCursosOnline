@@ -1,0 +1,28 @@
+Admin.exe: 00001494: 21:13:47 []:>--------------------------------------------------------------<
+Admin.exe: 00001494: 21:13:47 [TUniServerModule]:Server First Init.
+Admin.exe: 00001494: 21:13:47 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00001494: 21:13:47 [TUniServerModule]:Global Cache Folder Erased. <43> Files deleted.
+Admin.exe: 00001494: 21:13:47 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001494: 21:13:47 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002684: 21:14:26 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002AB8: 23:52:33 []:>--------------------------------------------------------------<
+Admin.exe: 00002AB8: 23:52:33 [TUniServerModule]:Server First Init.
+Admin.exe: 00002AB8: 23:52:33 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002AB8: 23:52:33 [TUniServerModule]:Global Cache Folder Erased. <32> Files deleted.
+Admin.exe: 00002AB8: 23:52:33 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002AB8: 23:52:33 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002874: 23:53:43 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $0087511E
+Admin.exe: 00003DFC: 23:54:00 []:>--------------------------------------------------------------<
+Admin.exe: 00003DFC: 23:54:00 [TUniServerModule]:Server First Init.
+Admin.exe: 00003DFC: 23:54:00 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003DFC: 23:54:00 [TUniServerModule]:Global Cache Folder Erased. <31> Files deleted.
+Admin.exe: 00003DFC: 23:54:00 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003DFC: 23:54:00 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002134: 23:54:28 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 000013BC: 23:54:28 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00003188: 23:54:28 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00001D18: 23:54:32 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 000037D4: 23:54:32 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $0087511E
+Admin.exe: 00000CA0: 23:54:40 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $0087511E
+Admin.exe: 000032E4: 23:54:50 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $0087511E
+Admin.exe: 00002248: 23:55:16 [127.0.0.1]:EMSSQLNativeException : Timeout expired : Addr: $0087511E

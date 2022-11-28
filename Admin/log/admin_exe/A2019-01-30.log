@@ -1,0 +1,30 @@
+Admin.exe: 000024A4: 12:57:45 []:>--------------------------------------------------------------<
+Admin.exe: 000024A4: 12:57:45 [TUniServerModule]:Server First Init.
+Admin.exe: 000024A4: 12:57:46 [TUniServerModule]:Global Cache Folder Erased. <19> Files deleted.
+Admin.exe: 000024A4: 12:57:46 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000024A4: 12:57:46 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003740: 12:58:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 000024A4: 13:01:28 [TUniServerModule]:Shutting Down Server.
+Admin.exe: 000024A4: 13:01:28 [TUniServerModule]:Stopping HTTP Server.
+Admin.exe: 000024A4: 13:01:29 [TUniServerModule]:HTTP Server Stopped.
+Admin.exe: 000024A4: 13:01:29 [TUniGUISessionManager]:Terminating Session manager.
+Admin.exe: 000024A4: 13:01:29 [TUniGUISessionManager]:Stopping Cache Eraser...
+Admin.exe: 000024A4: 13:01:29 [TUniGUISessionManager]:Cache Eraser Stopped.
+Admin.exe: 000024A4: 13:01:29 [TUniGUISessionManager]:Destroying Worker Threads.
+Admin.exe: 000024A4: 13:01:29 [TUniGUISessionManager]:Session manager terminated.
+Admin.exe: 000024A4: 13:01:29 [TUniServerModule]:Server Shutdown Completed.
+Admin.exe: 000024A4: 13:01:29 []:<-------------------------------------------------------------->
+Admin.exe: 000024A4: 13:01:29 [Terminated]:Exit Code: 0
+Admin.exe: 00001E34: 23:34:52 []:>--------------------------------------------------------------<
+Admin.exe: 00001E34: 23:34:52 [TUniServerModule]:Server First Init.
+Admin.exe: 00001E34: 23:34:52 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00001E34: 23:34:52 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001E34: 23:34:52 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00000328: 23:35:00 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00003B70: 23:43:46 []:>--------------------------------------------------------------<
+Admin.exe: 00003B70: 23:43:46 [TUniServerModule]:Server First Init.
+Admin.exe: 00003B70: 23:43:46 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003B70: 23:43:46 [TUniServerModule]:Global Cache Folder Erased. <18> Files deleted.
+Admin.exe: 00003B70: 23:43:47 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003B70: 23:43:47 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002BA8: 23:44:26 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $0079DE9F

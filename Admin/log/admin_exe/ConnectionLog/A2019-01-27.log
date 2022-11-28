@@ -1,0 +1,3 @@
+Admin.exe: 0000078C: 10:33:54 [127.0.0.1]:Failed Sequence Recovery: SeqId: 59, Event: beforeclose
+Admin.exe: 0000078C: 10:33:54 [127.0.0.1]:Sequence sent from cache:  SeqId: 59
+Admin.exe: 0000078C: 10:33:57 [127.0.0.1]:Processed: Id: 59, Evt: beforeclose, [i86saROLlE1033C3217]

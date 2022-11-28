@@ -1,0 +1,6 @@
+Admin.exe: 00000F28: 00:45:56 [127.0.0.1]:Failed Sequence Recovery: SeqId: 7, Event: keypress
+Admin.exe: 00000F28: 00:45:57 [127.0.0.1]:Sequence sent from cache:  SeqId: 7
+Admin.exe: 00000F28: 00:45:58 [127.0.0.1]:Processed: Id: 7, Evt: keypress, [pTNakaM3Y81034AD4E7]
+Admin.exe: 00003F60: 00:46:00 [127.0.0.1]:Failed Sequence Recovery: SeqId: 7, Event: keypress
+Admin.exe: 00003F60: 00:46:00 [127.0.0.1]:Sequence sent from cache:  SeqId: 7
+Admin.exe: 00003F60: 00:46:00 [127.0.0.1]:Processed: Id: 7, Evt: keypress, [pTNakaM3Y81034AD4E7]

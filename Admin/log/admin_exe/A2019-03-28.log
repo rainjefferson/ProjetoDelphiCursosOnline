@@ -1,0 +1,208 @@
+Admin.exe: 0000174C: 00:29:00 []:>--------------------------------------------------------------<
+Admin.exe: 0000174C: 00:29:00 [TUniServerModule]:Server First Init.
+Admin.exe: 0000174C: 00:29:00 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 0000174C: 00:29:01 [TUniServerModule]:Global Cache Folder Erased. <40> Files deleted.
+Admin.exe: 0000174C: 00:29:01 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 0000174C: 00:29:01 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002BEC: 00:29:05 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00003C28: 00:35:52 []:>--------------------------------------------------------------<
+Admin.exe: 00003C28: 00:35:52 [TUniServerModule]:Server First Init.
+Admin.exe: 00003C28: 00:35:52 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003C28: 00:35:52 [TUniServerModule]:Global Cache Folder Erased. <43> Files deleted.
+Admin.exe: 00003C28: 00:35:52 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003C28: 00:35:52 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003BC0: 00:36:20 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00002EC0: 00:36:26 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 000043BC: 00:37:27 []:>--------------------------------------------------------------<
+Admin.exe: 000043BC: 00:37:27 [TUniServerModule]:Server First Init.
+Admin.exe: 000043BC: 00:37:27 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000043BC: 00:37:27 [TUniServerModule]:Global Cache Folder Erased. <41> Files deleted.
+Admin.exe: 000043BC: 00:37:27 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000043BC: 00:37:27 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002210: 00:37:33 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00004140: 00:44:06 []:>--------------------------------------------------------------<
+Admin.exe: 00004140: 00:44:06 [TUniServerModule]:Server First Init.
+Admin.exe: 00004140: 00:44:06 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00004140: 00:44:06 [TUniServerModule]:Global Cache Folder Erased. <43> Files deleted.
+Admin.exe: 00004140: 00:44:06 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00004140: 00:44:06 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00000558: 00:45:36 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00004324: 00:48:57 []:>--------------------------------------------------------------<
+Admin.exe: 00004324: 00:48:57 [TUniServerModule]:Server First Init.
+Admin.exe: 00004324: 00:48:57 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00004324: 00:48:58 [TUniServerModule]:Global Cache Folder Erased. <44> Files deleted.
+Admin.exe: 00004324: 00:48:58 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00004324: 00:48:58 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000043EC: 00:49:06 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00000A04: 22:07:13 []:>--------------------------------------------------------------<
+Admin.exe: 00000A04: 22:07:13 [TUniServerModule]:Server First Init.
+Admin.exe: 00000A04: 22:07:13 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00000A04: 22:07:13 [TUniServerModule]:Global Cache Folder Erased. <45> Files deleted.
+Admin.exe: 00000A04: 22:07:13 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00000A04: 22:07:13 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002030: 22:07:25 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00004250: 22:08:17 [[FireDAC][Phys][ODBC][Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'TR_ID' inválido.-127.0.0.1]:EMSSQLNativeException : [FireDAC][Phys][ODBC][Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'TR_ID' inválido. : Addr: $007EE366
+Admin.exe: 00000380: 22:08:46 []:>--------------------------------------------------------------<
+Admin.exe: 00000380: 22:08:46 [TUniServerModule]:Server First Init.
+Admin.exe: 00000380: 22:08:46 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00000380: 22:08:47 [TUniServerModule]:Global Cache Folder Erased. <42> Files deleted.
+Admin.exe: 00000380: 22:08:47 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00000380: 22:08:47 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002C40: 22:09:13 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 000008A8: 22:09:13 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00003F80: 22:09:36 []:>--------------------------------------------------------------<
+Admin.exe: 00003F80: 22:09:36 [TUniServerModule]:Server First Init.
+Admin.exe: 00003F80: 22:09:36 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003F80: 22:09:36 [TUniServerModule]:Global Cache Folder Erased. <31> Files deleted.
+Admin.exe: 00003F80: 22:09:36 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003F80: 22:09:37 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003BC4: 22:09:45 [HandleFileRequest[127.0.0.1]]:File not found: D:\Desenvolvimento\Projeto Escola Online - Felipe\SVN Amazon\Academiadepregadores\Admin\favicon.ico
+Admin.exe: 00002D34: 22:12:33 []:>--------------------------------------------------------------<
+Admin.exe: 00002D34: 22:12:33 [TUniServerModule]:Server First Init.
+Admin.exe: 00002D34: 22:12:33 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002D34: 22:12:33 [TUniServerModule]:Global Cache Folder Erased. <41> Files deleted.
+Admin.exe: 00002D34: 22:12:33 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002D34: 22:12:33 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000034DC: 22:12:45 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00002FA0: 22:13:49 []:>--------------------------------------------------------------<
+Admin.exe: 00002FA0: 22:13:49 [TUniServerModule]:Server First Init.
+Admin.exe: 00002FA0: 22:13:49 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002FA0: 22:13:49 [TUniServerModule]:Global Cache Folder Erased. <45> Files deleted.
+Admin.exe: 00002FA0: 22:13:49 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002FA0: 22:13:49 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000037B4: 22:13:55 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00004050: 22:14:38 []:>--------------------------------------------------------------<
+Admin.exe: 00004050: 22:14:38 [TUniServerModule]:Server First Init.
+Admin.exe: 00004050: 22:14:38 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00004050: 22:14:38 [TUniServerModule]:Global Cache Folder Erased. <31> Files deleted.
+Admin.exe: 00004050: 22:14:38 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00004050: 22:14:38 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003EB4: 22:15:01 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00001770: 22:20:53 []:>--------------------------------------------------------------<
+Admin.exe: 00001770: 22:20:53 [TUniServerModule]:Server First Init.
+Admin.exe: 00001770: 22:20:53 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00001770: 22:20:53 [TUniServerModule]:Global Cache Folder Erased. <45> Files deleted.
+Admin.exe: 00001770: 22:20:53 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001770: 22:20:53 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000015B8: 22:21:45 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00001F9C: 22:22:40 []:>--------------------------------------------------------------<
+Admin.exe: 00001F9C: 22:22:40 [TUniServerModule]:Server First Init.
+Admin.exe: 00001F9C: 22:22:40 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00001F9C: 22:22:40 [TUniServerModule]:Global Cache Folder Erased. <39> Files deleted.
+Admin.exe: 00001F9C: 22:22:40 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001F9C: 22:22:41 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00001AC0: 22:24:36 []:>--------------------------------------------------------------<
+Admin.exe: 00001AC0: 22:24:36 [TUniServerModule]:Server First Init.
+Admin.exe: 00001AC0: 22:24:36 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00001AC0: 22:24:36 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001AC0: 22:24:36 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000013C8: 22:24:54 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00000D04: 22:37:23 []:>--------------------------------------------------------------<
+Admin.exe: 00000D04: 22:37:23 [TUniServerModule]:Server First Init.
+Admin.exe: 00000D04: 22:37:23 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00000D04: 22:37:24 [TUniServerModule]:Global Cache Folder Erased. <53> Files deleted.
+Admin.exe: 00000D04: 22:37:24 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00000D04: 22:37:24 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000021CC: 22:37:39 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00003E7C: 22:40:10 []:>--------------------------------------------------------------<
+Admin.exe: 00003E7C: 22:40:10 [TUniServerModule]:Server First Init.
+Admin.exe: 00003E7C: 22:40:10 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00003E7C: 22:40:10 [TUniServerModule]:Global Cache Folder Erased. <41> Files deleted.
+Admin.exe: 00003E7C: 22:40:11 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00003E7C: 22:40:11 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002BE4: 22:40:18 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 0000273C: 22:41:10 [127.0.0.1]:EMSSQLNativeException : [FireDAC][Phys][ODBC][Microsoft][SQL Server Native Client 11.0][SQL Server]Sintaxe incorreta próxima à palavra-chave 'AND'. : Addr: $007EE366
+Admin.exe: 0000273C: 22:41:33 [127.0.0.1]:EMSSQLNativeException : [FireDAC][Phys][ODBC][Microsoft][SQL Server Native Client 11.0][SQL Server]Sintaxe incorreta próxima à palavra-chave 'AND'. : Addr: $007EE366
+Admin.exe: 0000273C: 22:43:04 [127.0.0.1]:EMSSQLNativeException : [FireDAC][Phys][ODBC][Microsoft][SQL Server Native Client 11.0][SQL Server]Sintaxe incorreta próxima à palavra-chave 'AND'. : Addr: $007EE366
+Admin.exe: 000004BC: 22:43:43 []:>--------------------------------------------------------------<
+Admin.exe: 000004BC: 22:43:43 [TUniServerModule]:Server First Init.
+Admin.exe: 000004BC: 22:43:43 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000004BC: 22:43:43 [TUniServerModule]:Global Cache Folder Erased. <50> Files deleted.
+Admin.exe: 000004BC: 22:43:44 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000004BC: 22:43:44 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00001B6C: 22:44:05 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00001F08: 22:45:59 []:>--------------------------------------------------------------<
+Admin.exe: 00001F08: 22:45:59 [TUniServerModule]:Server First Init.
+Admin.exe: 00001F08: 22:45:59 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00001F08: 22:45:59 [TUniServerModule]:Global Cache Folder Erased. <47> Files deleted.
+Admin.exe: 00001F08: 22:45:59 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00001F08: 22:46:00 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003F18: 22:46:15 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00002304: 22:47:14 []:>--------------------------------------------------------------<
+Admin.exe: 00002304: 22:47:14 [TUniServerModule]:Server First Init.
+Admin.exe: 00002304: 22:47:14 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002304: 22:47:15 [TUniServerModule]:Global Cache Folder Erased. <41> Files deleted.
+Admin.exe: 00002304: 22:47:15 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002304: 22:47:15 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003D10: 22:47:20 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00002844: 22:48:03 []:>--------------------------------------------------------------<
+Admin.exe: 00002844: 22:48:04 [TUniServerModule]:Server First Init.
+Admin.exe: 00002844: 22:48:04 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002844: 22:48:04 [TUniServerModule]:Global Cache Folder Erased. <39> Files deleted.
+Admin.exe: 00002844: 22:48:04 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002844: 22:48:04 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000008A0: 22:48:05 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 000014EC: 23:31:40 []:>--------------------------------------------------------------<
+Admin.exe: 000014EC: 23:31:40 [TUniServerModule]:Server First Init.
+Admin.exe: 000014EC: 23:31:40 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000014EC: 23:31:40 [TUniServerModule]:Global Cache Folder Erased. <50> Files deleted.
+Admin.exe: 000014EC: 23:31:40 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000014EC: 23:31:40 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00004080: 23:32:34 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 000030F8: 23:33:22 []:>--------------------------------------------------------------<
+Admin.exe: 000030F8: 23:33:22 [TUniServerModule]:Server First Init.
+Admin.exe: 000030F8: 23:33:22 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000030F8: 23:33:22 [TUniServerModule]:Global Cache Folder Erased. <40> Files deleted.
+Admin.exe: 000030F8: 23:33:22 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000030F8: 23:33:22 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 000042C4: 23:34:00 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00002D30: 23:40:32 []:>--------------------------------------------------------------<
+Admin.exe: 00002D30: 23:40:32 [TUniServerModule]:Server First Init.
+Admin.exe: 00002D30: 23:40:32 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00002D30: 23:40:32 [TUniServerModule]:Global Cache Folder Erased. <43> Files deleted.
+Admin.exe: 00002D30: 23:40:33 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00002D30: 23:40:33 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00001100: 23:40:34 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 000029D4: 23:42:08 []:>--------------------------------------------------------------<
+Admin.exe: 000029D4: 23:42:08 [TUniServerModule]:Server First Init.
+Admin.exe: 000029D4: 23:42:08 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000029D4: 23:42:08 [TUniServerModule]:Global Cache Folder Erased. <43> Files deleted.
+Admin.exe: 000029D4: 23:42:08 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000029D4: 23:42:08 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002E34: 23:42:19 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 000026F4: 23:43:25 []:>--------------------------------------------------------------<
+Admin.exe: 000026F4: 23:43:25 [TUniServerModule]:Server First Init.
+Admin.exe: 000026F4: 23:43:25 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000026F4: 23:43:26 [TUniServerModule]:Global Cache Folder Erased. <44> Files deleted.
+Admin.exe: 000026F4: 23:43:26 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000026F4: 23:43:26 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003B18: 23:43:32 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00003B44: 23:44:25 [127.0.0.1]:EAccessViolation : Access violation at address 00E4E79C in module 'Admin.exe'. Read of address 00000000 : Addr: $00E4E79C
+Admin.exe: 000035E4: 23:46:09 []:>--------------------------------------------------------------<
+Admin.exe: 000035E4: 23:46:09 [TUniServerModule]:Server First Init.
+Admin.exe: 000035E4: 23:46:09 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000035E4: 23:46:09 [TUniServerModule]:Global Cache Folder Erased. <42> Files deleted.
+Admin.exe: 000035E4: 23:46:09 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000035E4: 23:46:09 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 0000131C: 23:46:29 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 000019AC: 23:47:42 []:>--------------------------------------------------------------<
+Admin.exe: 000019AC: 23:47:42 [TUniServerModule]:Server First Init.
+Admin.exe: 000019AC: 23:47:42 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000019AC: 23:47:43 [TUniServerModule]:Global Cache Folder Erased. <41> Files deleted.
+Admin.exe: 000019AC: 23:47:43 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000019AC: 23:47:43 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00001B40: 23:47:50 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 000040CC: 23:48:29 []:>--------------------------------------------------------------<
+Admin.exe: 000040CC: 23:48:29 [TUniServerModule]:Server First Init.
+Admin.exe: 000040CC: 23:48:29 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 000040CC: 23:48:29 [TUniServerModule]:Global Cache Folder Erased. <41> Files deleted.
+Admin.exe: 000040CC: 23:48:29 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 000040CC: 23:48:29 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00003A14: 23:48:49 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F
+Admin.exe: 00004028: 23:54:12 []:>--------------------------------------------------------------<
+Admin.exe: 00004028: 23:54:12 [TUniServerModule]:Server First Init.
+Admin.exe: 00004028: 23:54:12 [TUniServerModule]:Debug Mode = ON
+Admin.exe: 00004028: 23:54:13 [TUniServerModule]:Global Cache Folder Erased. <41> Files deleted.
+Admin.exe: 00004028: 23:54:13 [TUniServerModule]:Starting HTTP Server on Port: 8191...
+Admin.exe: 00004028: 23:54:13 [TUniServerModule]:HTTP Server Started on Port: 8191
+Admin.exe: 00002D04: 23:54:42 [127.0.0.1]:EUniSessionException : Sessão expirada. : Addr: $007AA36F

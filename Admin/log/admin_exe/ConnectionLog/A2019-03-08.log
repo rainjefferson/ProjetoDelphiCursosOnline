@@ -1,0 +1,6 @@
+Admin.exe: 00001FBC: 22:31:27 [127.0.0.1]:Failed Sequence Recovery: SeqId: 61, Event: beforeclose
+Admin.exe: 00001FBC: 22:31:30 [127.0.0.1]:Sequence sent from cache:  SeqId: 61
+Admin.exe: 00003768: 22:31:30 [127.0.0.1]:Failed Sequence Recovery: SeqId: 61, Event: beforeclose
+Admin.exe: 00001FBC: 22:31:30 [127.0.0.1]:Processed: Id: 61, Evt: beforeclose, [kIdr4gbbiY10379FD22]
+Admin.exe: 00003768: 22:31:30 [127.0.0.1]:Sequence sent from cache:  SeqId: 61
+Admin.exe: 00003768: 22:31:30 [127.0.0.1]:Processed: Id: 61, Evt: beforeclose, [kIdr4gbbiY10379FD22]

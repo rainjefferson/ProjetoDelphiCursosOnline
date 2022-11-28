@@ -1,0 +1,15 @@
+html{
+	
+}
+
+.section-page{
+	position:absolute;
+	display:table;
+	top:0px;
+	left:0px;
+	min-width:100%;
+	height:auto;
+	padding:80px 0px 0px 0px;
+	background:#393939;
+}
+
